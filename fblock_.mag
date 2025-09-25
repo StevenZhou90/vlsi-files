@@ -1,0 +1,19 @@
+magic
+tech scmos
+timestamp 1758806737
+<< metal2 >>
+rect 105 135 111 144
+rect 105 130 119 135
+use mux2  mux2_2
+timestamp 1758806543
+transform 1 0 -111 0 1 143
+box 126 -4 261 74
+use mux2  mux2_1
+timestamp 1758806543
+transform 0 1 88 -1 0 261
+box 126 -4 261 74
+use mux2  mux2_0
+timestamp 1758806543
+transform 0 1 4 -1 0 261
+box 126 -4 261 74
+<< end >>
