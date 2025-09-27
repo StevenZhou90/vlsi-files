@@ -1,0 +1,25 @@
+| units: 9 tech: scmos format: MIT
+n SEL GND! nand2_1/B 2 5 238 21
+p SEL Vdd! nand2_1/B 2 10 238 38
+n SEL GND! nand2_0/a_7_10# 2 6 210 50
+p SEL Vdd! nand2_2/A 2 12 190 50
+n B nand2_0/a_7_10# nand2_2/A 2 6 210 59
+p B nand2_2/A Vdd! 2 12 190 59
+n A GND! nand2_1/a_7_10# 2 6 210 8
+p A Vdd! nand2_2/B 2 12 190 8
+n nand2_1/B nand2_1/a_7_10# nand2_2/B 2 6 210 17
+p nand2_1/B nand2_2/B Vdd! 2 12 190 17
+n nand2_2/A GND! nand2_2/a_7_10# 2 6 143 26
+p nand2_2/A Vdd! OUT 2 12 143 46
+n nand2_2/B nand2_2/a_7_10# OUT 2 6 152 26
+p nand2_2/B OUT Vdd! 2 12 152 46
+C Vdd! GND 2.75
+R Vdd! 10346
+R OUT 22
+R nand2_2/B 166
+R nand2_2/A 167
+R A 145
+R B 145
+R SEL 287
+R GND! 334
+R nand2_1/B 167

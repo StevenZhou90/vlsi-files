@@ -1,0 +1,15 @@
+= Vdd! m1_156_51#
+= Vdd! m1_166_62#
+= OUT nand2_2/out
+= nand2_2/B nand2_1/out
+= nand2_2/B m1_162_40#
+= nand2_2/A nand2_0/out
+= nand2_2/A m1_131_35#
+= A nand2_1/A
+= B nand2_0/B
+= SEL inv_0/in
+= SEL nand2_0/A
+= GND! m1_146_17#
+= GND! m1_215_30#
+= nand2_1/B inv_0/out
+= nand2_1/B m1_192_29#
