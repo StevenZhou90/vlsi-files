@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1758894695
+timestamp 1759005747
 << metal1 >>
 rect 156 159 164 164
 rect 25 153 34 158
@@ -30,17 +30,17 @@ rect 45 123 100 128
 rect 45 117 50 123
 rect 119 -18 124 163
 rect 129 117 134 196
-use mux2  mux2_2 ~/Downloads/vlsi-files
-timestamp 1758892258
-transform 1 0 -97 0 1 127
+use mux2  mux2_0
+timestamp 1759005747
+transform 0 1 19 -1 0 243
 box 126 -4 261 74
 use mux2  mux2_1
-timestamp 1758892258
+timestamp 1759005747
 transform 0 1 103 -1 0 243
 box 126 -4 261 74
-use mux2  mux2_0
-timestamp 1758892258
-transform 0 1 19 -1 0 243
+use mux2  mux2_2
+timestamp 1759005747
+transform 1 0 -97 0 1 127
 box 126 -4 261 74
 << labels >>
 rlabel metal1 161 162 161 162 1 A

@@ -1,0 +1,178 @@
+magic
+tech scmos
+timestamp 1759006269
+<< metal1 >>
+rect 9 181 14 241
+rect 182 181 187 241
+rect 355 181 360 241
+rect 528 181 533 241
+rect 701 181 706 241
+rect 874 181 879 241
+rect 1047 181 1052 241
+rect 1220 181 1225 241
+rect 137 167 196 172
+rect 310 167 369 172
+rect 483 167 542 172
+rect 656 167 715 172
+rect 829 167 888 172
+rect 1002 167 1061 172
+rect 1175 167 1234 172
+rect 1348 167 1358 172
+rect 158 96 176 101
+rect 331 96 349 101
+rect 504 96 522 101
+rect 677 96 695 101
+rect 850 96 868 101
+rect 1023 96 1041 101
+rect 1196 96 1214 101
+rect 0 -30 5 0
+rect 73 -22 78 0
+rect 84 -14 89 2
+rect 157 -6 162 4
+rect 330 -6 335 6
+rect 503 -6 508 6
+rect 676 -6 681 7
+rect 849 -6 854 8
+rect 1022 -6 1027 6
+rect 1195 -6 1200 6
+rect 1368 -6 1373 6
+rect 157 -11 1373 -6
+rect 84 -19 257 -14
+rect 262 -19 430 -14
+rect 435 -19 603 -14
+rect 608 -19 776 -14
+rect 781 -19 949 -14
+rect 954 -19 1122 -14
+rect 1127 -19 1295 -14
+rect 73 -27 246 -22
+rect 251 -27 419 -22
+rect 424 -27 592 -22
+rect 597 -27 765 -22
+rect 770 -27 938 -22
+rect 943 -27 1111 -22
+rect 1116 -27 1284 -22
+rect 0 -35 173 -30
+rect 178 -35 346 -30
+rect 351 -35 519 -30
+rect 524 -35 692 -30
+rect 697 -31 1038 -30
+rect 697 -35 865 -31
+rect 870 -35 1038 -31
+rect 1043 -35 1211 -30
+<< m2contact >>
+rect 173 0 178 5
+rect 246 0 251 5
+rect 257 0 262 5
+rect 346 0 351 5
+rect 419 0 424 5
+rect 430 0 435 5
+rect 519 0 524 5
+rect 592 0 597 5
+rect 603 0 608 5
+rect 692 0 697 5
+rect 765 0 770 5
+rect 776 0 781 5
+rect 865 -1 870 4
+rect 938 0 943 5
+rect 949 0 954 5
+rect 1038 0 1043 5
+rect 1111 0 1116 5
+rect 1122 0 1127 5
+rect 1211 0 1216 5
+rect 1284 0 1289 5
+rect 1295 0 1300 5
+rect 257 -19 262 -14
+rect 430 -19 435 -14
+rect 603 -19 608 -14
+rect 776 -19 781 -14
+rect 949 -19 954 -14
+rect 1122 -19 1127 -14
+rect 1295 -19 1300 -14
+rect 246 -27 251 -22
+rect 419 -27 424 -22
+rect 592 -27 597 -22
+rect 765 -27 770 -22
+rect 938 -27 943 -22
+rect 1111 -27 1116 -22
+rect 1284 -27 1289 -22
+rect 173 -35 178 -30
+rect 346 -35 351 -30
+rect 519 -35 524 -30
+rect 692 -35 697 -30
+rect 865 -36 870 -31
+rect 1038 -35 1043 -30
+rect 1211 -35 1216 -30
+<< metal2 >>
+rect 126 -42 131 22
+rect 173 -30 178 0
+rect 246 -22 251 0
+rect 257 -14 262 0
+rect 299 -42 304 22
+rect 346 -30 351 0
+rect 419 -22 424 0
+rect 430 -14 435 0
+rect 472 -42 477 22
+rect 519 -30 524 0
+rect 592 -22 597 0
+rect 603 -14 608 0
+rect 645 -42 650 22
+rect 692 -30 697 0
+rect 765 -22 770 0
+rect 776 -14 781 0
+rect 818 -42 823 22
+rect 865 -31 870 -1
+rect 938 -22 943 0
+rect 949 -14 954 0
+rect 991 -42 996 22
+rect 1038 -30 1043 0
+rect 1111 -22 1116 0
+rect 1122 -14 1127 0
+rect 1164 -42 1169 22
+rect 1211 -30 1216 0
+rect 1284 -22 1289 0
+rect 1295 -14 1300 0
+rect 1337 -42 1342 22
+<< metal3 >>
+rect 104 -42 109 10
+rect 277 -42 282 10
+rect 450 -42 455 10
+rect 623 -42 628 10
+rect 796 -42 801 10
+rect 969 -42 974 10
+rect 1142 -42 1147 10
+rect 1315 -42 1320 10
+use fblock_one  fblock_one_0
+array 0 7 173 0 0 227
+timestamp 1759005747
+transform 1 0 -15 0 1 28
+box 15 -28 177 201
+<< labels >>
+rlabel metal3 106 -2 106 -2 1 a0
+rlabel metal2 127 -3 127 -3 1 b0
+rlabel metal3 279 -2 279 -2 1 a1
+rlabel metal2 300 -3 300 -3 1 b1
+rlabel metal3 451 -2 451 -2 1 a2
+rlabel metal2 473 -1 473 -1 1 b2
+rlabel metal3 624 1 624 1 1 a3
+rlabel metal2 646 0 646 0 1 b3
+rlabel metal3 797 0 797 0 1 a4
+rlabel metal2 819 1 819 1 1 b4
+rlabel metal3 970 1 970 1 1 a5
+rlabel metal2 992 0 992 0 1 b5
+rlabel metal3 1143 -1 1143 -1 1 a6
+rlabel metal2 1165 -1 1165 -1 1 b6
+rlabel metal3 1316 0 1316 0 1 a7
+rlabel metal2 1338 1 1338 1 1 b7
+rlabel metal1 2 -12 2 -12 3 g0
+rlabel metal1 74 -13 74 -13 1 g1
+rlabel metal1 85 -14 85 -14 1 g2
+rlabel metal1 160 -6 160 -6 1 g3
+rlabel metal1 11 217 11 217 1 f0
+rlabel metal1 183 219 183 219 1 f1
+rlabel metal1 357 217 357 217 1 f2
+rlabel metal1 530 217 530 217 1 f3
+rlabel metal1 703 217 703 217 1 f4
+rlabel metal1 875 219 875 219 1 f5
+rlabel metal1 1048 219 1048 219 1 f6
+rlabel metal1 1221 217 1221 217 1 f7
+<< end >>
