@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1759005747
+timestamp 1759097999
 << metal1 >>
 rect 156 159 164 164
 rect 25 153 34 158
@@ -30,24 +30,24 @@ rect 45 123 100 128
 rect 45 117 50 123
 rect 119 -18 124 163
 rect 129 117 134 196
-use mux2  mux2_0
+use mux2  mux2_2
 timestamp 1759005747
-transform 0 1 19 -1 0 243
+transform 1 0 -97 0 1 127
 box 126 -4 261 74
 use mux2  mux2_1
 timestamp 1759005747
 transform 0 1 103 -1 0 243
 box 126 -4 261 74
-use mux2  mux2_2
+use mux2  mux2_0
 timestamp 1759005747
-transform 1 0 -97 0 1 127
+transform 0 1 19 -1 0 243
 box 126 -4 261 74
 << labels >>
 rlabel metal1 161 162 161 162 1 A
-rlabel metal1 26 155 26 155 1 OUT
 rlabel metal1 17 -26 17 -26 2 g0
 rlabel metal1 89 -26 89 -26 1 g1
 rlabel metal1 100 -26 100 -26 1 g2
 rlabel metal1 173 -26 173 -26 8 g3
 rlabel metal2 84 -8 84 -8 1 B
+rlabel metal1 26 155 26 155 1 f
 << end >>

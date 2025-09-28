@@ -50,22 +50,22 @@ rect 146 11 151 17
 rect 215 11 220 12
 rect 146 6 220 11
 rect 202 -4 226 1
-use nand2  nand2_1
+use inv  inv_0
 timestamp 1759005747
-transform 0 -1 221 1 0 3
+transform -1 0 244 0 1 16
+box -9 -7 21 44
+use nand2  nand2_2
+timestamp 1759005747
+transform 1 0 138 0 1 16
 box -7 -2 29 54
 use nand2  nand2_0
 timestamp 1759005747
 transform 0 -1 221 1 0 45
 box -7 -2 29 54
-use nand2  nand2_2
+use nand2  nand2_1
 timestamp 1759005747
-transform 1 0 138 0 1 16
+transform 0 -1 221 1 0 3
 box -7 -2 29 54
-use inv  inv_0
-timestamp 1759005747
-transform -1 0 244 0 1 16
-box -9 -7 21 44
 << labels >>
 rlabel space 217 59 217 59 1 GND!
 rlabel metal1 172 36 172 36 1 Vdd!

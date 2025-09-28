@@ -1,0 +1,64 @@
+| units: 9 tech: scmos format: MIT
+n B GND! mux2_0/nand2_1/B 2 5 40 4
+p B Vdd! mux2_0/nand2_1/B 2 10 57 4
+n B GND! mux2_0/nand2_0/a_7_10# 2 6 69 32
+p B Vdd! mux2_0/nand2_2/A 2 12 69 52
+n g1 mux2_0/nand2_0/a_7_10# mux2_0/nand2_2/A 2 6 78 32
+p g1 mux2_0/nand2_2/A Vdd! 2 12 78 52
+n g0 GND! mux2_0/nand2_1/a_7_10# 2 6 27 32
+p g0 Vdd! mux2_0/nand2_2/B 2 12 27 52
+n mux2_0/nand2_1/B mux2_0/nand2_1/a_7_10# mux2_0/nand2_2/B 2 6 36 32
+p mux2_0/nand2_1/B mux2_0/nand2_2/B Vdd! 2 12 36 52
+n mux2_0/nand2_2/A GND! mux2_0/nand2_2/a_7_10# 2 6 45 99
+p mux2_0/nand2_2/A Vdd! mux2_2/A 2 12 65 99
+n mux2_0/nand2_2/B mux2_0/nand2_2/a_7_10# mux2_2/A 2 6 45 90
+p mux2_0/nand2_2/B mux2_2/A Vdd! 2 12 65 90
+n B GND! mux2_1/nand2_1/B 2 5 124 4
+p B Vdd! mux2_1/nand2_1/B 2 10 141 4
+n B GND! mux2_1/nand2_0/a_7_10# 2 6 153 32
+p B Vdd! mux2_1/nand2_2/A 2 12 153 52
+n g3 mux2_1/nand2_0/a_7_10# mux2_1/nand2_2/A 2 6 162 32
+p g3 mux2_1/nand2_2/A Vdd! 2 12 162 52
+n g2 GND! mux2_1/nand2_1/a_7_10# 2 6 111 32
+p g2 Vdd! mux2_1/nand2_2/B 2 12 111 52
+n mux2_1/nand2_1/B mux2_1/nand2_1/a_7_10# mux2_1/nand2_2/B 2 6 120 32
+p mux2_1/nand2_1/B mux2_1/nand2_2/B Vdd! 2 12 120 52
+n mux2_1/nand2_2/A GND! mux2_1/nand2_2/a_7_10# 2 6 129 99
+p mux2_1/nand2_2/A Vdd! mux2_2/B 2 12 149 99
+n mux2_1/nand2_2/B mux2_1/nand2_2/a_7_10# mux2_2/B 2 6 129 90
+p mux2_1/nand2_2/B mux2_2/B Vdd! 2 12 149 90
+n A GND! mux2_2/nand2_1/B 2 5 141 148
+p A Vdd! mux2_2/nand2_1/B 2 10 141 165
+n A GND! mux2_2/nand2_0/a_7_10# 2 6 113 177
+p A Vdd! mux2_2/nand2_2/A 2 12 93 177
+n mux2_2/B mux2_2/nand2_0/a_7_10# mux2_2/nand2_2/A 2 6 113 186
+p mux2_2/B mux2_2/nand2_2/A Vdd! 2 12 93 186
+n mux2_2/A GND! mux2_2/nand2_1/a_7_10# 2 6 113 135
+p mux2_2/A Vdd! mux2_2/nand2_2/B 2 12 93 135
+n mux2_2/nand2_1/B mux2_2/nand2_1/a_7_10# mux2_2/nand2_2/B 2 6 113 144
+p mux2_2/nand2_1/B mux2_2/nand2_2/B Vdd! 2 12 93 144
+n mux2_2/nand2_2/A GND! mux2_2/nand2_2/a_7_10# 2 6 46 153
+p mux2_2/nand2_2/A Vdd! f 2 12 46 173
+n mux2_2/nand2_2/B mux2_2/nand2_2/a_7_10# f 2 6 55 153
+p mux2_2/nand2_2/B f Vdd! 2 12 55 173
+C Vdd! GND 8.43
+R Vdd! 35129
+R f 22
+R mux2_2/nand2_2/B 166
+R mux2_2/nand2_2/A 167
+R mux2_2/A 168
+R A 287
+R GND! 1064
+R mux2_2/nand2_1/B 167
+R mux2_2/B 168
+R mux2_1/nand2_2/B 166
+R mux2_1/nand2_2/A 167
+R g2 145
+R g3 145
+R mux2_1/nand2_1/B 167
+R mux2_0/nand2_2/B 166
+R mux2_0/nand2_2/A 167
+R g0 145
+R g1 145
+R B 591
+R mux2_0/nand2_1/B 167

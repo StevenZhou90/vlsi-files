@@ -1,0 +1,466 @@
+| units: 9 tech: scmos format: MIT
+n b0 GND! fblock_one_0[0]/mux2_0/nand2_1/B 2 5 25 32
+p b0 Vdd! fblock_one_0[0]/mux2_0/nand2_1/B 2 10 42 32
+n b0 GND! fblock_one_0[0]/mux2_0/nand2_0/a_7_10# 2 6 54 60
+p b0 Vdd! fblock_one_0[0]/mux2_0/nand2_2/A 2 12 54 80
+n g1 fblock_one_0[0]/mux2_0/nand2_0/a_7_10# fblock_one_0[0]/mux2_0/nand2_2/A 2 6 63 60
+p g1 fblock_one_0[0]/mux2_0/nand2_2/A Vdd! 2 12 63 80
+n g0 GND! fblock_one_0[0]/mux2_0/nand2_1/a_7_10# 2 6 12 60
+p g0 Vdd! fblock_one_0[0]/mux2_0/nand2_2/B 2 12 12 80
+n fblock_one_0[0]/mux2_0/nand2_1/B fblock_one_0[0]/mux2_0/nand2_1/a_7_10# fblock_one_0[0]/mux2_0/nand2_2/B 2 6 21 60
+p fblock_one_0[0]/mux2_0/nand2_1/B fblock_one_0[0]/mux2_0/nand2_2/B Vdd! 2 12 21 80
+n fblock_one_0[0]/mux2_0/nand2_2/A GND! fblock_one_0[0]/mux2_0/nand2_2/a_7_10# 2 6 30 127
+p fblock_one_0[0]/mux2_0/nand2_2/A Vdd! fblock_one_0[0]/mux2_2/A 2 12 50 127
+n fblock_one_0[0]/mux2_0/nand2_2/B fblock_one_0[0]/mux2_0/nand2_2/a_7_10# fblock_one_0[0]/mux2_2/A 2 6 30 118
+p fblock_one_0[0]/mux2_0/nand2_2/B fblock_one_0[0]/mux2_2/A Vdd! 2 12 50 118
+n b0 GND! fblock_one_0[0]/mux2_1/nand2_1/B 2 5 109 32
+p b0 Vdd! fblock_one_0[0]/mux2_1/nand2_1/B 2 10 126 32
+n b0 GND! fblock_one_0[0]/mux2_1/nand2_0/a_7_10# 2 6 138 60
+p b0 Vdd! fblock_one_0[0]/mux2_1/nand2_2/A 2 12 138 80
+n g3 fblock_one_0[0]/mux2_1/nand2_0/a_7_10# fblock_one_0[0]/mux2_1/nand2_2/A 2 6 147 60
+p g3 fblock_one_0[0]/mux2_1/nand2_2/A Vdd! 2 12 147 80
+n g2 GND! fblock_one_0[0]/mux2_1/nand2_1/a_7_10# 2 6 96 60
+p g2 Vdd! fblock_one_0[0]/mux2_1/nand2_2/B 2 12 96 80
+n fblock_one_0[0]/mux2_1/nand2_1/B fblock_one_0[0]/mux2_1/nand2_1/a_7_10# fblock_one_0[0]/mux2_1/nand2_2/B 2 6 105 60
+p fblock_one_0[0]/mux2_1/nand2_1/B fblock_one_0[0]/mux2_1/nand2_2/B Vdd! 2 12 105 80
+n fblock_one_0[0]/mux2_1/nand2_2/A GND! fblock_one_0[0]/mux2_1/nand2_2/a_7_10# 2 6 114 127
+p fblock_one_0[0]/mux2_1/nand2_2/A Vdd! fblock_one_0[0]/mux2_2/B 2 12 134 127
+n fblock_one_0[0]/mux2_1/nand2_2/B fblock_one_0[0]/mux2_1/nand2_2/a_7_10# fblock_one_0[0]/mux2_2/B 2 6 114 118
+p fblock_one_0[0]/mux2_1/nand2_2/B fblock_one_0[0]/mux2_2/B Vdd! 2 12 134 118
+n a0 GND! fblock_one_0[0]/mux2_2/nand2_1/B 2 5 126 176
+p a0 Vdd! fblock_one_0[0]/mux2_2/nand2_1/B 2 10 126 193
+n a0 GND! fblock_one_0[0]/mux2_2/nand2_0/a_7_10# 2 6 98 205
+p a0 Vdd! fblock_one_0[0]/mux2_2/nand2_2/A 2 12 78 205
+n fblock_one_0[0]/mux2_2/B fblock_one_0[0]/mux2_2/nand2_0/a_7_10# fblock_one_0[0]/mux2_2/nand2_2/A 2 6 98 214
+p fblock_one_0[0]/mux2_2/B fblock_one_0[0]/mux2_2/nand2_2/A Vdd! 2 12 78 214
+n fblock_one_0[0]/mux2_2/A GND! fblock_one_0[0]/mux2_2/nand2_1/a_7_10# 2 6 98 163
+p fblock_one_0[0]/mux2_2/A Vdd! fblock_one_0[0]/mux2_2/nand2_2/B 2 12 78 163
+n fblock_one_0[0]/mux2_2/nand2_1/B fblock_one_0[0]/mux2_2/nand2_1/a_7_10# fblock_one_0[0]/mux2_2/nand2_2/B 2 6 98 172
+p fblock_one_0[0]/mux2_2/nand2_1/B fblock_one_0[0]/mux2_2/nand2_2/B Vdd! 2 12 78 172
+n fblock_one_0[0]/mux2_2/nand2_2/A GND! fblock_one_0[0]/mux2_2/nand2_2/a_7_10# 2 6 31 181
+p fblock_one_0[0]/mux2_2/nand2_2/A Vdd! f0 2 12 31 201
+n fblock_one_0[0]/mux2_2/nand2_2/B fblock_one_0[0]/mux2_2/nand2_2/a_7_10# f0 2 6 40 181
+p fblock_one_0[0]/mux2_2/nand2_2/B f0 Vdd! 2 12 40 201
+n b1 GND! fblock_one_0[1]/mux2_0/nand2_1/B 2 5 198 32
+p b1 Vdd! fblock_one_0[1]/mux2_0/nand2_1/B 2 10 215 32
+n b1 GND! fblock_one_0[1]/mux2_0/nand2_0/a_7_10# 2 6 227 60
+p b1 Vdd! fblock_one_0[1]/mux2_0/nand2_2/A 2 12 227 80
+n g1 fblock_one_0[1]/mux2_0/nand2_0/a_7_10# fblock_one_0[1]/mux2_0/nand2_2/A 2 6 236 60
+p g1 fblock_one_0[1]/mux2_0/nand2_2/A Vdd! 2 12 236 80
+n g0 GND! fblock_one_0[1]/mux2_0/nand2_1/a_7_10# 2 6 185 60
+p g0 Vdd! fblock_one_0[1]/mux2_0/nand2_2/B 2 12 185 80
+n fblock_one_0[1]/mux2_0/nand2_1/B fblock_one_0[1]/mux2_0/nand2_1/a_7_10# fblock_one_0[1]/mux2_0/nand2_2/B 2 6 194 60
+p fblock_one_0[1]/mux2_0/nand2_1/B fblock_one_0[1]/mux2_0/nand2_2/B Vdd! 2 12 194 80
+n fblock_one_0[1]/mux2_0/nand2_2/A GND! fblock_one_0[1]/mux2_0/nand2_2/a_7_10# 2 6 203 127
+p fblock_one_0[1]/mux2_0/nand2_2/A Vdd! fblock_one_0[1]/mux2_2/A 2 12 223 127
+n fblock_one_0[1]/mux2_0/nand2_2/B fblock_one_0[1]/mux2_0/nand2_2/a_7_10# fblock_one_0[1]/mux2_2/A 2 6 203 118
+p fblock_one_0[1]/mux2_0/nand2_2/B fblock_one_0[1]/mux2_2/A Vdd! 2 12 223 118
+n b1 GND! fblock_one_0[1]/mux2_1/nand2_1/B 2 5 282 32
+p b1 Vdd! fblock_one_0[1]/mux2_1/nand2_1/B 2 10 299 32
+n b1 GND! fblock_one_0[1]/mux2_1/nand2_0/a_7_10# 2 6 311 60
+p b1 Vdd! fblock_one_0[1]/mux2_1/nand2_2/A 2 12 311 80
+n g3 fblock_one_0[1]/mux2_1/nand2_0/a_7_10# fblock_one_0[1]/mux2_1/nand2_2/A 2 6 320 60
+p g3 fblock_one_0[1]/mux2_1/nand2_2/A Vdd! 2 12 320 80
+n g2 GND! fblock_one_0[1]/mux2_1/nand2_1/a_7_10# 2 6 269 60
+p g2 Vdd! fblock_one_0[1]/mux2_1/nand2_2/B 2 12 269 80
+n fblock_one_0[1]/mux2_1/nand2_1/B fblock_one_0[1]/mux2_1/nand2_1/a_7_10# fblock_one_0[1]/mux2_1/nand2_2/B 2 6 278 60
+p fblock_one_0[1]/mux2_1/nand2_1/B fblock_one_0[1]/mux2_1/nand2_2/B Vdd! 2 12 278 80
+n fblock_one_0[1]/mux2_1/nand2_2/A GND! fblock_one_0[1]/mux2_1/nand2_2/a_7_10# 2 6 287 127
+p fblock_one_0[1]/mux2_1/nand2_2/A Vdd! fblock_one_0[1]/mux2_2/B 2 12 307 127
+n fblock_one_0[1]/mux2_1/nand2_2/B fblock_one_0[1]/mux2_1/nand2_2/a_7_10# fblock_one_0[1]/mux2_2/B 2 6 287 118
+p fblock_one_0[1]/mux2_1/nand2_2/B fblock_one_0[1]/mux2_2/B Vdd! 2 12 307 118
+n a1 GND! fblock_one_0[1]/mux2_2/nand2_1/B 2 5 299 176
+p a1 Vdd! fblock_one_0[1]/mux2_2/nand2_1/B 2 10 299 193
+n a1 GND! fblock_one_0[1]/mux2_2/nand2_0/a_7_10# 2 6 271 205
+p a1 Vdd! fblock_one_0[1]/mux2_2/nand2_2/A 2 12 251 205
+n fblock_one_0[1]/mux2_2/B fblock_one_0[1]/mux2_2/nand2_0/a_7_10# fblock_one_0[1]/mux2_2/nand2_2/A 2 6 271 214
+p fblock_one_0[1]/mux2_2/B fblock_one_0[1]/mux2_2/nand2_2/A Vdd! 2 12 251 214
+n fblock_one_0[1]/mux2_2/A GND! fblock_one_0[1]/mux2_2/nand2_1/a_7_10# 2 6 271 163
+p fblock_one_0[1]/mux2_2/A Vdd! fblock_one_0[1]/mux2_2/nand2_2/B 2 12 251 163
+n fblock_one_0[1]/mux2_2/nand2_1/B fblock_one_0[1]/mux2_2/nand2_1/a_7_10# fblock_one_0[1]/mux2_2/nand2_2/B 2 6 271 172
+p fblock_one_0[1]/mux2_2/nand2_1/B fblock_one_0[1]/mux2_2/nand2_2/B Vdd! 2 12 251 172
+n fblock_one_0[1]/mux2_2/nand2_2/A GND! fblock_one_0[1]/mux2_2/nand2_2/a_7_10# 2 6 204 181
+p fblock_one_0[1]/mux2_2/nand2_2/A Vdd! f1 2 12 204 201
+n fblock_one_0[1]/mux2_2/nand2_2/B fblock_one_0[1]/mux2_2/nand2_2/a_7_10# f1 2 6 213 181
+p fblock_one_0[1]/mux2_2/nand2_2/B f1 Vdd! 2 12 213 201
+n b2 GND! fblock_one_0[2]/mux2_0/nand2_1/B 2 5 371 32
+p b2 Vdd! fblock_one_0[2]/mux2_0/nand2_1/B 2 10 388 32
+n b2 GND! fblock_one_0[2]/mux2_0/nand2_0/a_7_10# 2 6 400 60
+p b2 Vdd! fblock_one_0[2]/mux2_0/nand2_2/A 2 12 400 80
+n g1 fblock_one_0[2]/mux2_0/nand2_0/a_7_10# fblock_one_0[2]/mux2_0/nand2_2/A 2 6 409 60
+p g1 fblock_one_0[2]/mux2_0/nand2_2/A Vdd! 2 12 409 80
+n g0 GND! fblock_one_0[2]/mux2_0/nand2_1/a_7_10# 2 6 358 60
+p g0 Vdd! fblock_one_0[2]/mux2_0/nand2_2/B 2 12 358 80
+n fblock_one_0[2]/mux2_0/nand2_1/B fblock_one_0[2]/mux2_0/nand2_1/a_7_10# fblock_one_0[2]/mux2_0/nand2_2/B 2 6 367 60
+p fblock_one_0[2]/mux2_0/nand2_1/B fblock_one_0[2]/mux2_0/nand2_2/B Vdd! 2 12 367 80
+n fblock_one_0[2]/mux2_0/nand2_2/A GND! fblock_one_0[2]/mux2_0/nand2_2/a_7_10# 2 6 376 127
+p fblock_one_0[2]/mux2_0/nand2_2/A Vdd! fblock_one_0[2]/mux2_2/A 2 12 396 127
+n fblock_one_0[2]/mux2_0/nand2_2/B fblock_one_0[2]/mux2_0/nand2_2/a_7_10# fblock_one_0[2]/mux2_2/A 2 6 376 118
+p fblock_one_0[2]/mux2_0/nand2_2/B fblock_one_0[2]/mux2_2/A Vdd! 2 12 396 118
+n b2 GND! fblock_one_0[2]/mux2_1/nand2_1/B 2 5 455 32
+p b2 Vdd! fblock_one_0[2]/mux2_1/nand2_1/B 2 10 472 32
+n b2 GND! fblock_one_0[2]/mux2_1/nand2_0/a_7_10# 2 6 484 60
+p b2 Vdd! fblock_one_0[2]/mux2_1/nand2_2/A 2 12 484 80
+n g3 fblock_one_0[2]/mux2_1/nand2_0/a_7_10# fblock_one_0[2]/mux2_1/nand2_2/A 2 6 493 60
+p g3 fblock_one_0[2]/mux2_1/nand2_2/A Vdd! 2 12 493 80
+n g2 GND! fblock_one_0[2]/mux2_1/nand2_1/a_7_10# 2 6 442 60
+p g2 Vdd! fblock_one_0[2]/mux2_1/nand2_2/B 2 12 442 80
+n fblock_one_0[2]/mux2_1/nand2_1/B fblock_one_0[2]/mux2_1/nand2_1/a_7_10# fblock_one_0[2]/mux2_1/nand2_2/B 2 6 451 60
+p fblock_one_0[2]/mux2_1/nand2_1/B fblock_one_0[2]/mux2_1/nand2_2/B Vdd! 2 12 451 80
+n fblock_one_0[2]/mux2_1/nand2_2/A GND! fblock_one_0[2]/mux2_1/nand2_2/a_7_10# 2 6 460 127
+p fblock_one_0[2]/mux2_1/nand2_2/A Vdd! fblock_one_0[2]/mux2_2/B 2 12 480 127
+n fblock_one_0[2]/mux2_1/nand2_2/B fblock_one_0[2]/mux2_1/nand2_2/a_7_10# fblock_one_0[2]/mux2_2/B 2 6 460 118
+p fblock_one_0[2]/mux2_1/nand2_2/B fblock_one_0[2]/mux2_2/B Vdd! 2 12 480 118
+n a2 GND! fblock_one_0[2]/mux2_2/nand2_1/B 2 5 472 176
+p a2 Vdd! fblock_one_0[2]/mux2_2/nand2_1/B 2 10 472 193
+n a2 GND! fblock_one_0[2]/mux2_2/nand2_0/a_7_10# 2 6 444 205
+p a2 Vdd! fblock_one_0[2]/mux2_2/nand2_2/A 2 12 424 205
+n fblock_one_0[2]/mux2_2/B fblock_one_0[2]/mux2_2/nand2_0/a_7_10# fblock_one_0[2]/mux2_2/nand2_2/A 2 6 444 214
+p fblock_one_0[2]/mux2_2/B fblock_one_0[2]/mux2_2/nand2_2/A Vdd! 2 12 424 214
+n fblock_one_0[2]/mux2_2/A GND! fblock_one_0[2]/mux2_2/nand2_1/a_7_10# 2 6 444 163
+p fblock_one_0[2]/mux2_2/A Vdd! fblock_one_0[2]/mux2_2/nand2_2/B 2 12 424 163
+n fblock_one_0[2]/mux2_2/nand2_1/B fblock_one_0[2]/mux2_2/nand2_1/a_7_10# fblock_one_0[2]/mux2_2/nand2_2/B 2 6 444 172
+p fblock_one_0[2]/mux2_2/nand2_1/B fblock_one_0[2]/mux2_2/nand2_2/B Vdd! 2 12 424 172
+n fblock_one_0[2]/mux2_2/nand2_2/A GND! fblock_one_0[2]/mux2_2/nand2_2/a_7_10# 2 6 377 181
+p fblock_one_0[2]/mux2_2/nand2_2/A Vdd! f2 2 12 377 201
+n fblock_one_0[2]/mux2_2/nand2_2/B fblock_one_0[2]/mux2_2/nand2_2/a_7_10# f2 2 6 386 181
+p fblock_one_0[2]/mux2_2/nand2_2/B f2 Vdd! 2 12 386 201
+n b3 GND! fblock_one_0[3]/mux2_0/nand2_1/B 2 5 544 32
+p b3 Vdd! fblock_one_0[3]/mux2_0/nand2_1/B 2 10 561 32
+n b3 GND! fblock_one_0[3]/mux2_0/nand2_0/a_7_10# 2 6 573 60
+p b3 Vdd! fblock_one_0[3]/mux2_0/nand2_2/A 2 12 573 80
+n g1 fblock_one_0[3]/mux2_0/nand2_0/a_7_10# fblock_one_0[3]/mux2_0/nand2_2/A 2 6 582 60
+p g1 fblock_one_0[3]/mux2_0/nand2_2/A Vdd! 2 12 582 80
+n g0 GND! fblock_one_0[3]/mux2_0/nand2_1/a_7_10# 2 6 531 60
+p g0 Vdd! fblock_one_0[3]/mux2_0/nand2_2/B 2 12 531 80
+n fblock_one_0[3]/mux2_0/nand2_1/B fblock_one_0[3]/mux2_0/nand2_1/a_7_10# fblock_one_0[3]/mux2_0/nand2_2/B 2 6 540 60
+p fblock_one_0[3]/mux2_0/nand2_1/B fblock_one_0[3]/mux2_0/nand2_2/B Vdd! 2 12 540 80
+n fblock_one_0[3]/mux2_0/nand2_2/A GND! fblock_one_0[3]/mux2_0/nand2_2/a_7_10# 2 6 549 127
+p fblock_one_0[3]/mux2_0/nand2_2/A Vdd! fblock_one_0[3]/mux2_2/A 2 12 569 127
+n fblock_one_0[3]/mux2_0/nand2_2/B fblock_one_0[3]/mux2_0/nand2_2/a_7_10# fblock_one_0[3]/mux2_2/A 2 6 549 118
+p fblock_one_0[3]/mux2_0/nand2_2/B fblock_one_0[3]/mux2_2/A Vdd! 2 12 569 118
+n b3 GND! fblock_one_0[3]/mux2_1/nand2_1/B 2 5 628 32
+p b3 Vdd! fblock_one_0[3]/mux2_1/nand2_1/B 2 10 645 32
+n b3 GND! fblock_one_0[3]/mux2_1/nand2_0/a_7_10# 2 6 657 60
+p b3 Vdd! fblock_one_0[3]/mux2_1/nand2_2/A 2 12 657 80
+n g3 fblock_one_0[3]/mux2_1/nand2_0/a_7_10# fblock_one_0[3]/mux2_1/nand2_2/A 2 6 666 60
+p g3 fblock_one_0[3]/mux2_1/nand2_2/A Vdd! 2 12 666 80
+n g2 GND! fblock_one_0[3]/mux2_1/nand2_1/a_7_10# 2 6 615 60
+p g2 Vdd! fblock_one_0[3]/mux2_1/nand2_2/B 2 12 615 80
+n fblock_one_0[3]/mux2_1/nand2_1/B fblock_one_0[3]/mux2_1/nand2_1/a_7_10# fblock_one_0[3]/mux2_1/nand2_2/B 2 6 624 60
+p fblock_one_0[3]/mux2_1/nand2_1/B fblock_one_0[3]/mux2_1/nand2_2/B Vdd! 2 12 624 80
+n fblock_one_0[3]/mux2_1/nand2_2/A GND! fblock_one_0[3]/mux2_1/nand2_2/a_7_10# 2 6 633 127
+p fblock_one_0[3]/mux2_1/nand2_2/A Vdd! fblock_one_0[3]/mux2_2/B 2 12 653 127
+n fblock_one_0[3]/mux2_1/nand2_2/B fblock_one_0[3]/mux2_1/nand2_2/a_7_10# fblock_one_0[3]/mux2_2/B 2 6 633 118
+p fblock_one_0[3]/mux2_1/nand2_2/B fblock_one_0[3]/mux2_2/B Vdd! 2 12 653 118
+n a3 GND! fblock_one_0[3]/mux2_2/nand2_1/B 2 5 645 176
+p a3 Vdd! fblock_one_0[3]/mux2_2/nand2_1/B 2 10 645 193
+n a3 GND! fblock_one_0[3]/mux2_2/nand2_0/a_7_10# 2 6 617 205
+p a3 Vdd! fblock_one_0[3]/mux2_2/nand2_2/A 2 12 597 205
+n fblock_one_0[3]/mux2_2/B fblock_one_0[3]/mux2_2/nand2_0/a_7_10# fblock_one_0[3]/mux2_2/nand2_2/A 2 6 617 214
+p fblock_one_0[3]/mux2_2/B fblock_one_0[3]/mux2_2/nand2_2/A Vdd! 2 12 597 214
+n fblock_one_0[3]/mux2_2/A GND! fblock_one_0[3]/mux2_2/nand2_1/a_7_10# 2 6 617 163
+p fblock_one_0[3]/mux2_2/A Vdd! fblock_one_0[3]/mux2_2/nand2_2/B 2 12 597 163
+n fblock_one_0[3]/mux2_2/nand2_1/B fblock_one_0[3]/mux2_2/nand2_1/a_7_10# fblock_one_0[3]/mux2_2/nand2_2/B 2 6 617 172
+p fblock_one_0[3]/mux2_2/nand2_1/B fblock_one_0[3]/mux2_2/nand2_2/B Vdd! 2 12 597 172
+n fblock_one_0[3]/mux2_2/nand2_2/A GND! fblock_one_0[3]/mux2_2/nand2_2/a_7_10# 2 6 550 181
+p fblock_one_0[3]/mux2_2/nand2_2/A Vdd! f3 2 12 550 201
+n fblock_one_0[3]/mux2_2/nand2_2/B fblock_one_0[3]/mux2_2/nand2_2/a_7_10# f3 2 6 559 181
+p fblock_one_0[3]/mux2_2/nand2_2/B f3 Vdd! 2 12 559 201
+n b4 GND! fblock_one_0[4]/mux2_0/nand2_1/B 2 5 717 32
+p b4 Vdd! fblock_one_0[4]/mux2_0/nand2_1/B 2 10 734 32
+n b4 GND! fblock_one_0[4]/mux2_0/nand2_0/a_7_10# 2 6 746 60
+p b4 Vdd! fblock_one_0[4]/mux2_0/nand2_2/A 2 12 746 80
+n g1 fblock_one_0[4]/mux2_0/nand2_0/a_7_10# fblock_one_0[4]/mux2_0/nand2_2/A 2 6 755 60
+p g1 fblock_one_0[4]/mux2_0/nand2_2/A Vdd! 2 12 755 80
+n g0 GND! fblock_one_0[4]/mux2_0/nand2_1/a_7_10# 2 6 704 60
+p g0 Vdd! fblock_one_0[4]/mux2_0/nand2_2/B 2 12 704 80
+n fblock_one_0[4]/mux2_0/nand2_1/B fblock_one_0[4]/mux2_0/nand2_1/a_7_10# fblock_one_0[4]/mux2_0/nand2_2/B 2 6 713 60
+p fblock_one_0[4]/mux2_0/nand2_1/B fblock_one_0[4]/mux2_0/nand2_2/B Vdd! 2 12 713 80
+n fblock_one_0[4]/mux2_0/nand2_2/A GND! fblock_one_0[4]/mux2_0/nand2_2/a_7_10# 2 6 722 127
+p fblock_one_0[4]/mux2_0/nand2_2/A Vdd! fblock_one_0[4]/mux2_2/A 2 12 742 127
+n fblock_one_0[4]/mux2_0/nand2_2/B fblock_one_0[4]/mux2_0/nand2_2/a_7_10# fblock_one_0[4]/mux2_2/A 2 6 722 118
+p fblock_one_0[4]/mux2_0/nand2_2/B fblock_one_0[4]/mux2_2/A Vdd! 2 12 742 118
+n b4 GND! fblock_one_0[4]/mux2_1/nand2_1/B 2 5 801 32
+p b4 Vdd! fblock_one_0[4]/mux2_1/nand2_1/B 2 10 818 32
+n b4 GND! fblock_one_0[4]/mux2_1/nand2_0/a_7_10# 2 6 830 60
+p b4 Vdd! fblock_one_0[4]/mux2_1/nand2_2/A 2 12 830 80
+n g3 fblock_one_0[4]/mux2_1/nand2_0/a_7_10# fblock_one_0[4]/mux2_1/nand2_2/A 2 6 839 60
+p g3 fblock_one_0[4]/mux2_1/nand2_2/A Vdd! 2 12 839 80
+n g2 GND! fblock_one_0[4]/mux2_1/nand2_1/a_7_10# 2 6 788 60
+p g2 Vdd! fblock_one_0[4]/mux2_1/nand2_2/B 2 12 788 80
+n fblock_one_0[4]/mux2_1/nand2_1/B fblock_one_0[4]/mux2_1/nand2_1/a_7_10# fblock_one_0[4]/mux2_1/nand2_2/B 2 6 797 60
+p fblock_one_0[4]/mux2_1/nand2_1/B fblock_one_0[4]/mux2_1/nand2_2/B Vdd! 2 12 797 80
+n fblock_one_0[4]/mux2_1/nand2_2/A GND! fblock_one_0[4]/mux2_1/nand2_2/a_7_10# 2 6 806 127
+p fblock_one_0[4]/mux2_1/nand2_2/A Vdd! fblock_one_0[4]/mux2_2/B 2 12 826 127
+n fblock_one_0[4]/mux2_1/nand2_2/B fblock_one_0[4]/mux2_1/nand2_2/a_7_10# fblock_one_0[4]/mux2_2/B 2 6 806 118
+p fblock_one_0[4]/mux2_1/nand2_2/B fblock_one_0[4]/mux2_2/B Vdd! 2 12 826 118
+n a4 GND! fblock_one_0[4]/mux2_2/nand2_1/B 2 5 818 176
+p a4 Vdd! fblock_one_0[4]/mux2_2/nand2_1/B 2 10 818 193
+n a4 GND! fblock_one_0[4]/mux2_2/nand2_0/a_7_10# 2 6 790 205
+p a4 Vdd! fblock_one_0[4]/mux2_2/nand2_2/A 2 12 770 205
+n fblock_one_0[4]/mux2_2/B fblock_one_0[4]/mux2_2/nand2_0/a_7_10# fblock_one_0[4]/mux2_2/nand2_2/A 2 6 790 214
+p fblock_one_0[4]/mux2_2/B fblock_one_0[4]/mux2_2/nand2_2/A Vdd! 2 12 770 214
+n fblock_one_0[4]/mux2_2/A GND! fblock_one_0[4]/mux2_2/nand2_1/a_7_10# 2 6 790 163
+p fblock_one_0[4]/mux2_2/A Vdd! fblock_one_0[4]/mux2_2/nand2_2/B 2 12 770 163
+n fblock_one_0[4]/mux2_2/nand2_1/B fblock_one_0[4]/mux2_2/nand2_1/a_7_10# fblock_one_0[4]/mux2_2/nand2_2/B 2 6 790 172
+p fblock_one_0[4]/mux2_2/nand2_1/B fblock_one_0[4]/mux2_2/nand2_2/B Vdd! 2 12 770 172
+n fblock_one_0[4]/mux2_2/nand2_2/A GND! fblock_one_0[4]/mux2_2/nand2_2/a_7_10# 2 6 723 181
+p fblock_one_0[4]/mux2_2/nand2_2/A Vdd! f4 2 12 723 201
+n fblock_one_0[4]/mux2_2/nand2_2/B fblock_one_0[4]/mux2_2/nand2_2/a_7_10# f4 2 6 732 181
+p fblock_one_0[4]/mux2_2/nand2_2/B f4 Vdd! 2 12 732 201
+n b5 GND! fblock_one_0[5]/mux2_0/nand2_1/B 2 5 890 32
+p b5 Vdd! fblock_one_0[5]/mux2_0/nand2_1/B 2 10 907 32
+n b5 GND! fblock_one_0[5]/mux2_0/nand2_0/a_7_10# 2 6 919 60
+p b5 Vdd! fblock_one_0[5]/mux2_0/nand2_2/A 2 12 919 80
+n g1 fblock_one_0[5]/mux2_0/nand2_0/a_7_10# fblock_one_0[5]/mux2_0/nand2_2/A 2 6 928 60
+p g1 fblock_one_0[5]/mux2_0/nand2_2/A Vdd! 2 12 928 80
+n g0 GND! fblock_one_0[5]/mux2_0/nand2_1/a_7_10# 2 6 877 60
+p g0 Vdd! fblock_one_0[5]/mux2_0/nand2_2/B 2 12 877 80
+n fblock_one_0[5]/mux2_0/nand2_1/B fblock_one_0[5]/mux2_0/nand2_1/a_7_10# fblock_one_0[5]/mux2_0/nand2_2/B 2 6 886 60
+p fblock_one_0[5]/mux2_0/nand2_1/B fblock_one_0[5]/mux2_0/nand2_2/B Vdd! 2 12 886 80
+n fblock_one_0[5]/mux2_0/nand2_2/A GND! fblock_one_0[5]/mux2_0/nand2_2/a_7_10# 2 6 895 127
+p fblock_one_0[5]/mux2_0/nand2_2/A Vdd! fblock_one_0[5]/mux2_2/A 2 12 915 127
+n fblock_one_0[5]/mux2_0/nand2_2/B fblock_one_0[5]/mux2_0/nand2_2/a_7_10# fblock_one_0[5]/mux2_2/A 2 6 895 118
+p fblock_one_0[5]/mux2_0/nand2_2/B fblock_one_0[5]/mux2_2/A Vdd! 2 12 915 118
+n b5 GND! fblock_one_0[5]/mux2_1/nand2_1/B 2 5 974 32
+p b5 Vdd! fblock_one_0[5]/mux2_1/nand2_1/B 2 10 991 32
+n b5 GND! fblock_one_0[5]/mux2_1/nand2_0/a_7_10# 2 6 1003 60
+p b5 Vdd! fblock_one_0[5]/mux2_1/nand2_2/A 2 12 1003 80
+n g3 fblock_one_0[5]/mux2_1/nand2_0/a_7_10# fblock_one_0[5]/mux2_1/nand2_2/A 2 6 1012 60
+p g3 fblock_one_0[5]/mux2_1/nand2_2/A Vdd! 2 12 1012 80
+n g2 GND! fblock_one_0[5]/mux2_1/nand2_1/a_7_10# 2 6 961 60
+p g2 Vdd! fblock_one_0[5]/mux2_1/nand2_2/B 2 12 961 80
+n fblock_one_0[5]/mux2_1/nand2_1/B fblock_one_0[5]/mux2_1/nand2_1/a_7_10# fblock_one_0[5]/mux2_1/nand2_2/B 2 6 970 60
+p fblock_one_0[5]/mux2_1/nand2_1/B fblock_one_0[5]/mux2_1/nand2_2/B Vdd! 2 12 970 80
+n fblock_one_0[5]/mux2_1/nand2_2/A GND! fblock_one_0[5]/mux2_1/nand2_2/a_7_10# 2 6 979 127
+p fblock_one_0[5]/mux2_1/nand2_2/A Vdd! fblock_one_0[5]/mux2_2/B 2 12 999 127
+n fblock_one_0[5]/mux2_1/nand2_2/B fblock_one_0[5]/mux2_1/nand2_2/a_7_10# fblock_one_0[5]/mux2_2/B 2 6 979 118
+p fblock_one_0[5]/mux2_1/nand2_2/B fblock_one_0[5]/mux2_2/B Vdd! 2 12 999 118
+n a5 GND! fblock_one_0[5]/mux2_2/nand2_1/B 2 5 991 176
+p a5 Vdd! fblock_one_0[5]/mux2_2/nand2_1/B 2 10 991 193
+n a5 GND! fblock_one_0[5]/mux2_2/nand2_0/a_7_10# 2 6 963 205
+p a5 Vdd! fblock_one_0[5]/mux2_2/nand2_2/A 2 12 943 205
+n fblock_one_0[5]/mux2_2/B fblock_one_0[5]/mux2_2/nand2_0/a_7_10# fblock_one_0[5]/mux2_2/nand2_2/A 2 6 963 214
+p fblock_one_0[5]/mux2_2/B fblock_one_0[5]/mux2_2/nand2_2/A Vdd! 2 12 943 214
+n fblock_one_0[5]/mux2_2/A GND! fblock_one_0[5]/mux2_2/nand2_1/a_7_10# 2 6 963 163
+p fblock_one_0[5]/mux2_2/A Vdd! fblock_one_0[5]/mux2_2/nand2_2/B 2 12 943 163
+n fblock_one_0[5]/mux2_2/nand2_1/B fblock_one_0[5]/mux2_2/nand2_1/a_7_10# fblock_one_0[5]/mux2_2/nand2_2/B 2 6 963 172
+p fblock_one_0[5]/mux2_2/nand2_1/B fblock_one_0[5]/mux2_2/nand2_2/B Vdd! 2 12 943 172
+n fblock_one_0[5]/mux2_2/nand2_2/A GND! fblock_one_0[5]/mux2_2/nand2_2/a_7_10# 2 6 896 181
+p fblock_one_0[5]/mux2_2/nand2_2/A Vdd! f5 2 12 896 201
+n fblock_one_0[5]/mux2_2/nand2_2/B fblock_one_0[5]/mux2_2/nand2_2/a_7_10# f5 2 6 905 181
+p fblock_one_0[5]/mux2_2/nand2_2/B f5 Vdd! 2 12 905 201
+n b6 GND! fblock_one_0[6]/mux2_0/nand2_1/B 2 5 1063 32
+p b6 Vdd! fblock_one_0[6]/mux2_0/nand2_1/B 2 10 1080 32
+n b6 GND! fblock_one_0[6]/mux2_0/nand2_0/a_7_10# 2 6 1092 60
+p b6 Vdd! fblock_one_0[6]/mux2_0/nand2_2/A 2 12 1092 80
+n g1 fblock_one_0[6]/mux2_0/nand2_0/a_7_10# fblock_one_0[6]/mux2_0/nand2_2/A 2 6 1101 60
+p g1 fblock_one_0[6]/mux2_0/nand2_2/A Vdd! 2 12 1101 80
+n g0 GND! fblock_one_0[6]/mux2_0/nand2_1/a_7_10# 2 6 1050 60
+p g0 Vdd! fblock_one_0[6]/mux2_0/nand2_2/B 2 12 1050 80
+n fblock_one_0[6]/mux2_0/nand2_1/B fblock_one_0[6]/mux2_0/nand2_1/a_7_10# fblock_one_0[6]/mux2_0/nand2_2/B 2 6 1059 60
+p fblock_one_0[6]/mux2_0/nand2_1/B fblock_one_0[6]/mux2_0/nand2_2/B Vdd! 2 12 1059 80
+n fblock_one_0[6]/mux2_0/nand2_2/A GND! fblock_one_0[6]/mux2_0/nand2_2/a_7_10# 2 6 1068 127
+p fblock_one_0[6]/mux2_0/nand2_2/A Vdd! fblock_one_0[6]/mux2_2/A 2 12 1088 127
+n fblock_one_0[6]/mux2_0/nand2_2/B fblock_one_0[6]/mux2_0/nand2_2/a_7_10# fblock_one_0[6]/mux2_2/A 2 6 1068 118
+p fblock_one_0[6]/mux2_0/nand2_2/B fblock_one_0[6]/mux2_2/A Vdd! 2 12 1088 118
+n b6 GND! fblock_one_0[6]/mux2_1/nand2_1/B 2 5 1147 32
+p b6 Vdd! fblock_one_0[6]/mux2_1/nand2_1/B 2 10 1164 32
+n b6 GND! fblock_one_0[6]/mux2_1/nand2_0/a_7_10# 2 6 1176 60
+p b6 Vdd! fblock_one_0[6]/mux2_1/nand2_2/A 2 12 1176 80
+n g3 fblock_one_0[6]/mux2_1/nand2_0/a_7_10# fblock_one_0[6]/mux2_1/nand2_2/A 2 6 1185 60
+p g3 fblock_one_0[6]/mux2_1/nand2_2/A Vdd! 2 12 1185 80
+n g2 GND! fblock_one_0[6]/mux2_1/nand2_1/a_7_10# 2 6 1134 60
+p g2 Vdd! fblock_one_0[6]/mux2_1/nand2_2/B 2 12 1134 80
+n fblock_one_0[6]/mux2_1/nand2_1/B fblock_one_0[6]/mux2_1/nand2_1/a_7_10# fblock_one_0[6]/mux2_1/nand2_2/B 2 6 1143 60
+p fblock_one_0[6]/mux2_1/nand2_1/B fblock_one_0[6]/mux2_1/nand2_2/B Vdd! 2 12 1143 80
+n fblock_one_0[6]/mux2_1/nand2_2/A GND! fblock_one_0[6]/mux2_1/nand2_2/a_7_10# 2 6 1152 127
+p fblock_one_0[6]/mux2_1/nand2_2/A Vdd! fblock_one_0[6]/mux2_2/B 2 12 1172 127
+n fblock_one_0[6]/mux2_1/nand2_2/B fblock_one_0[6]/mux2_1/nand2_2/a_7_10# fblock_one_0[6]/mux2_2/B 2 6 1152 118
+p fblock_one_0[6]/mux2_1/nand2_2/B fblock_one_0[6]/mux2_2/B Vdd! 2 12 1172 118
+n a6 GND! fblock_one_0[6]/mux2_2/nand2_1/B 2 5 1164 176
+p a6 Vdd! fblock_one_0[6]/mux2_2/nand2_1/B 2 10 1164 193
+n a6 GND! fblock_one_0[6]/mux2_2/nand2_0/a_7_10# 2 6 1136 205
+p a6 Vdd! fblock_one_0[6]/mux2_2/nand2_2/A 2 12 1116 205
+n fblock_one_0[6]/mux2_2/B fblock_one_0[6]/mux2_2/nand2_0/a_7_10# fblock_one_0[6]/mux2_2/nand2_2/A 2 6 1136 214
+p fblock_one_0[6]/mux2_2/B fblock_one_0[6]/mux2_2/nand2_2/A Vdd! 2 12 1116 214
+n fblock_one_0[6]/mux2_2/A GND! fblock_one_0[6]/mux2_2/nand2_1/a_7_10# 2 6 1136 163
+p fblock_one_0[6]/mux2_2/A Vdd! fblock_one_0[6]/mux2_2/nand2_2/B 2 12 1116 163
+n fblock_one_0[6]/mux2_2/nand2_1/B fblock_one_0[6]/mux2_2/nand2_1/a_7_10# fblock_one_0[6]/mux2_2/nand2_2/B 2 6 1136 172
+p fblock_one_0[6]/mux2_2/nand2_1/B fblock_one_0[6]/mux2_2/nand2_2/B Vdd! 2 12 1116 172
+n fblock_one_0[6]/mux2_2/nand2_2/A GND! fblock_one_0[6]/mux2_2/nand2_2/a_7_10# 2 6 1069 181
+p fblock_one_0[6]/mux2_2/nand2_2/A Vdd! f6 2 12 1069 201
+n fblock_one_0[6]/mux2_2/nand2_2/B fblock_one_0[6]/mux2_2/nand2_2/a_7_10# f6 2 6 1078 181
+p fblock_one_0[6]/mux2_2/nand2_2/B f6 Vdd! 2 12 1078 201
+n b7 GND! fblock_one_0[7]/mux2_0/nand2_1/B 2 5 1236 32
+p b7 Vdd! fblock_one_0[7]/mux2_0/nand2_1/B 2 10 1253 32
+n b7 GND! fblock_one_0[7]/mux2_0/nand2_0/a_7_10# 2 6 1265 60
+p b7 Vdd! fblock_one_0[7]/mux2_0/nand2_2/A 2 12 1265 80
+n g1 fblock_one_0[7]/mux2_0/nand2_0/a_7_10# fblock_one_0[7]/mux2_0/nand2_2/A 2 6 1274 60
+p g1 fblock_one_0[7]/mux2_0/nand2_2/A Vdd! 2 12 1274 80
+n g0 GND! fblock_one_0[7]/mux2_0/nand2_1/a_7_10# 2 6 1223 60
+p g0 Vdd! fblock_one_0[7]/mux2_0/nand2_2/B 2 12 1223 80
+n fblock_one_0[7]/mux2_0/nand2_1/B fblock_one_0[7]/mux2_0/nand2_1/a_7_10# fblock_one_0[7]/mux2_0/nand2_2/B 2 6 1232 60
+p fblock_one_0[7]/mux2_0/nand2_1/B fblock_one_0[7]/mux2_0/nand2_2/B Vdd! 2 12 1232 80
+n fblock_one_0[7]/mux2_0/nand2_2/A GND! fblock_one_0[7]/mux2_0/nand2_2/a_7_10# 2 6 1241 127
+p fblock_one_0[7]/mux2_0/nand2_2/A Vdd! fblock_one_0[7]/mux2_2/A 2 12 1261 127
+n fblock_one_0[7]/mux2_0/nand2_2/B fblock_one_0[7]/mux2_0/nand2_2/a_7_10# fblock_one_0[7]/mux2_2/A 2 6 1241 118
+p fblock_one_0[7]/mux2_0/nand2_2/B fblock_one_0[7]/mux2_2/A Vdd! 2 12 1261 118
+n b7 GND! fblock_one_0[7]/mux2_1/nand2_1/B 2 5 1320 32
+p b7 Vdd! fblock_one_0[7]/mux2_1/nand2_1/B 2 10 1337 32
+n b7 GND! fblock_one_0[7]/mux2_1/nand2_0/a_7_10# 2 6 1349 60
+p b7 Vdd! fblock_one_0[7]/mux2_1/nand2_2/A 2 12 1349 80
+n g3 fblock_one_0[7]/mux2_1/nand2_0/a_7_10# fblock_one_0[7]/mux2_1/nand2_2/A 2 6 1358 60
+p g3 fblock_one_0[7]/mux2_1/nand2_2/A Vdd! 2 12 1358 80
+n g2 GND! fblock_one_0[7]/mux2_1/nand2_1/a_7_10# 2 6 1307 60
+p g2 Vdd! fblock_one_0[7]/mux2_1/nand2_2/B 2 12 1307 80
+n fblock_one_0[7]/mux2_1/nand2_1/B fblock_one_0[7]/mux2_1/nand2_1/a_7_10# fblock_one_0[7]/mux2_1/nand2_2/B 2 6 1316 60
+p fblock_one_0[7]/mux2_1/nand2_1/B fblock_one_0[7]/mux2_1/nand2_2/B Vdd! 2 12 1316 80
+n fblock_one_0[7]/mux2_1/nand2_2/A GND! fblock_one_0[7]/mux2_1/nand2_2/a_7_10# 2 6 1325 127
+p fblock_one_0[7]/mux2_1/nand2_2/A Vdd! fblock_one_0[7]/mux2_2/B 2 12 1345 127
+n fblock_one_0[7]/mux2_1/nand2_2/B fblock_one_0[7]/mux2_1/nand2_2/a_7_10# fblock_one_0[7]/mux2_2/B 2 6 1325 118
+p fblock_one_0[7]/mux2_1/nand2_2/B fblock_one_0[7]/mux2_2/B Vdd! 2 12 1345 118
+n a7 GND! fblock_one_0[7]/mux2_2/nand2_1/B 2 5 1337 176
+p a7 Vdd! fblock_one_0[7]/mux2_2/nand2_1/B 2 10 1337 193
+n a7 GND! fblock_one_0[7]/mux2_2/nand2_0/a_7_10# 2 6 1309 205
+p a7 Vdd! fblock_one_0[7]/mux2_2/nand2_2/A 2 12 1289 205
+n fblock_one_0[7]/mux2_2/B fblock_one_0[7]/mux2_2/nand2_0/a_7_10# fblock_one_0[7]/mux2_2/nand2_2/A 2 6 1309 214
+p fblock_one_0[7]/mux2_2/B fblock_one_0[7]/mux2_2/nand2_2/A Vdd! 2 12 1289 214
+n fblock_one_0[7]/mux2_2/A GND! fblock_one_0[7]/mux2_2/nand2_1/a_7_10# 2 6 1309 163
+p fblock_one_0[7]/mux2_2/A Vdd! fblock_one_0[7]/mux2_2/nand2_2/B 2 12 1289 163
+n fblock_one_0[7]/mux2_2/nand2_1/B fblock_one_0[7]/mux2_2/nand2_1/a_7_10# fblock_one_0[7]/mux2_2/nand2_2/B 2 6 1309 172
+p fblock_one_0[7]/mux2_2/nand2_1/B fblock_one_0[7]/mux2_2/nand2_2/B Vdd! 2 12 1289 172
+n fblock_one_0[7]/mux2_2/nand2_2/A GND! fblock_one_0[7]/mux2_2/nand2_2/a_7_10# 2 6 1242 181
+p fblock_one_0[7]/mux2_2/nand2_2/A Vdd! f7 2 12 1242 201
+n fblock_one_0[7]/mux2_2/nand2_2/B fblock_one_0[7]/mux2_2/nand2_2/a_7_10# f7 2 6 1251 181
+p fblock_one_0[7]/mux2_2/nand2_2/B f7 Vdd! 2 12 1251 201
+C GND! g0 4.88
+C g3 g2 18.12
+C g2 g1 25.45
+C GND! g2 4.93
+C g0 g1 17.85
+C Vdd! GND! 6.60
+R f7 23
+R fblock_one_0[7]/mux2_2/nand2_2/B 166
+R fblock_one_0[7]/mux2_2/nand2_2/A 167
+R fblock_one_0[7]/mux2_2/A 168
+R a7 288
+R GND! 8730
+R fblock_one_0[7]/mux2_2/nand2_1/B 167
+R fblock_one_0[7]/mux2_2/B 168
+R fblock_one_0[7]/mux2_1/nand2_2/B 166
+R fblock_one_0[7]/mux2_1/nand2_2/A 167
+R fblock_one_0[7]/mux2_1/nand2_1/B 167
+R fblock_one_0[7]/mux2_0/nand2_2/B 166
+R fblock_one_0[7]/mux2_0/nand2_2/A 167
+R b7 592
+R fblock_one_0[7]/mux2_0/nand2_1/B 167
+R f6 23
+R fblock_one_0[6]/mux2_2/nand2_2/B 166
+R fblock_one_0[6]/mux2_2/nand2_2/A 167
+R fblock_one_0[6]/mux2_2/A 168
+R a6 288
+R fblock_one_0[6]/mux2_2/nand2_1/B 167
+R fblock_one_0[6]/mux2_2/B 168
+R fblock_one_0[6]/mux2_1/nand2_2/B 166
+R fblock_one_0[6]/mux2_1/nand2_2/A 167
+R fblock_one_0[6]/mux2_1/nand2_1/B 167
+R fblock_one_0[6]/mux2_0/nand2_2/B 166
+R fblock_one_0[6]/mux2_0/nand2_2/A 167
+R b6 592
+R fblock_one_0[6]/mux2_0/nand2_1/B 167
+R f5 23
+R fblock_one_0[5]/mux2_2/nand2_2/B 166
+R fblock_one_0[5]/mux2_2/nand2_2/A 167
+R fblock_one_0[5]/mux2_2/A 168
+R a5 288
+R fblock_one_0[5]/mux2_2/nand2_1/B 167
+R fblock_one_0[5]/mux2_2/B 168
+R fblock_one_0[5]/mux2_1/nand2_2/B 166
+R fblock_one_0[5]/mux2_1/nand2_2/A 167
+R fblock_one_0[5]/mux2_1/nand2_1/B 167
+R fblock_one_0[5]/mux2_0/nand2_2/B 166
+R fblock_one_0[5]/mux2_0/nand2_2/A 167
+R b5 592
+R fblock_one_0[5]/mux2_0/nand2_1/B 167
+R f4 23
+R fblock_one_0[4]/mux2_2/nand2_2/B 166
+R fblock_one_0[4]/mux2_2/nand2_2/A 167
+R fblock_one_0[4]/mux2_2/A 168
+R a4 288
+R fblock_one_0[4]/mux2_2/nand2_1/B 167
+R fblock_one_0[4]/mux2_2/B 168
+R fblock_one_0[4]/mux2_1/nand2_2/B 166
+R fblock_one_0[4]/mux2_1/nand2_2/A 167
+R fblock_one_0[4]/mux2_1/nand2_1/B 167
+R fblock_one_0[4]/mux2_0/nand2_2/B 166
+R fblock_one_0[4]/mux2_0/nand2_2/A 167
+R b4 592
+R fblock_one_0[4]/mux2_0/nand2_1/B 167
+C Vdd! GND 68.09
+R Vdd! 294693
+R f3 23
+R fblock_one_0[3]/mux2_2/nand2_2/B 166
+R fblock_one_0[3]/mux2_2/nand2_2/A 167
+R fblock_one_0[3]/mux2_2/A 168
+R a3 288
+R fblock_one_0[3]/mux2_2/nand2_1/B 167
+R fblock_one_0[3]/mux2_2/B 168
+R fblock_one_0[3]/mux2_1/nand2_2/B 166
+R fblock_one_0[3]/mux2_1/nand2_2/A 167
+R fblock_one_0[3]/mux2_1/nand2_1/B 167
+R fblock_one_0[3]/mux2_0/nand2_2/B 166
+R fblock_one_0[3]/mux2_0/nand2_2/A 167
+R b3 592
+R fblock_one_0[3]/mux2_0/nand2_1/B 167
+R f2 23
+R fblock_one_0[2]/mux2_2/nand2_2/B 166
+R fblock_one_0[2]/mux2_2/nand2_2/A 167
+R fblock_one_0[2]/mux2_2/A 168
+R a2 288
+R fblock_one_0[2]/mux2_2/nand2_1/B 167
+R fblock_one_0[2]/mux2_2/B 168
+R fblock_one_0[2]/mux2_1/nand2_2/B 166
+R fblock_one_0[2]/mux2_1/nand2_2/A 167
+R fblock_one_0[2]/mux2_1/nand2_1/B 167
+R fblock_one_0[2]/mux2_0/nand2_2/B 166
+R fblock_one_0[2]/mux2_0/nand2_2/A 167
+R b2 592
+R fblock_one_0[2]/mux2_0/nand2_1/B 167
+R f1 23
+R fblock_one_0[1]/mux2_2/nand2_2/B 166
+R fblock_one_0[1]/mux2_2/nand2_2/A 167
+R fblock_one_0[1]/mux2_2/A 168
+R a1 288
+R fblock_one_0[1]/mux2_2/nand2_1/B 167
+R fblock_one_0[1]/mux2_2/B 168
+R fblock_one_0[1]/mux2_1/nand2_2/B 166
+R fblock_one_0[1]/mux2_1/nand2_2/A 167
+R fblock_one_0[1]/mux2_1/nand2_1/B 167
+R fblock_one_0[1]/mux2_0/nand2_2/B 166
+R fblock_one_0[1]/mux2_0/nand2_2/A 167
+R b1 592
+R fblock_one_0[1]/mux2_0/nand2_1/B 167
+R f0 23
+R fblock_one_0[0]/mux2_2/nand2_2/B 166
+R fblock_one_0[0]/mux2_2/nand2_2/A 167
+R fblock_one_0[0]/mux2_2/A 168
+R a0 288
+R fblock_one_0[0]/mux2_2/nand2_1/B 167
+R fblock_one_0[0]/mux2_2/B 168
+R fblock_one_0[0]/mux2_1/nand2_2/B 166
+R fblock_one_0[0]/mux2_1/nand2_2/A 167
+C g2 GND 6.33
+R g2 1299
+C g3 GND 6.31
+R g3 1289
+R fblock_one_0[0]/mux2_1/nand2_1/B 167
+R fblock_one_0[0]/mux2_0/nand2_2/B 166
+R fblock_one_0[0]/mux2_0/nand2_2/A 167
+C g0 GND 6.45
+R g0 1301
+C g1 GND 6.40
+R g1 1301
+R b0 592
+R fblock_one_0[0]/mux2_0/nand2_1/B 167
