@@ -1,21 +1,10 @@
-|
-| IRSIM Test for 8-bit Up/Down Shifter
-|
-
-| set Vdd and Gnd nodes
 h Vdd!
 l Gnd!
 s
 
-| define input and output vectors
 vector a a7 a6 a5 a4 a3 a2 a1 a0
 vector o o7 o6 o5 o4 o3 o2 o1 o0
 
-|--------------------------------------------------
-| Test Case 1: No Shift (s=0)
-| In this mode, the output 'o' should be equal to the input 'a'.
-| The value of 'u' should have no effect.
-|--------------------------------------------------
 echo "=== Test Case 1: No Shift (s=0) ==="
 l s
 l u
@@ -31,7 +20,6 @@ setvector a 11110000
 s
 assert o 11110000
 
-| Test with u=1 to ensure it has no effect when s=0
 h u
 s
 echo "A=01010101, s=0, u=1 -> O=01010101"
@@ -39,10 +27,6 @@ setvector a 01010101
 s
 assert o 01010101
 
-|--------------------------------------------------
-| Test Case 2: Shift Left (s=1, u=1)
-| In this mode, o0=0, o1=a0, o2=a1, ... o7=a6
-|--------------------------------------------------
 echo "=== Test Case 2: Shift Left (s=1, u=1) ==="
 h s
 h u
@@ -68,10 +52,6 @@ setvector a 10000000
 s
 assert o 00000000
 
-|--------------------------------------------------
-| Test Case 3: Shift Right (s=1, u=0)
-| In this mode, o0=a1, o1=a2, ... o6=a7, o7=0
-|--------------------------------------------------
 echo "=== Test Case 3: Shift Right (s=1, u=0) ==="
 h s
 l u
