@@ -9,8 +9,6 @@ echo "=== XOR Gate Test ==="
 echo "Test 1: A=0, B=0, Expected out=0"
 l A
 l B
-h Abar
-h Bbar
 s
 assert out l
 
@@ -18,8 +16,6 @@ assert out l
 echo "Test 2: A=0, B=1, Expected out=1"
 l A
 h B
-h Abar
-l Bbar
 s
 assert out h
 
@@ -27,8 +23,6 @@ assert out h
 echo "Test 3: A=1, B=0, Expected out=1"
 h A
 l B
-l Abar
-h Bbar
 s
 assert out h
 
@@ -36,12 +30,10 @@ assert out h
 echo "Test 4: A=1, B=1, Expected out=0"
 h A
 h B
-l Abar
-l Bbar
 s
 assert out l
 
 echo "=== All XOR Tests Complete ==="
 
 # Display waveforms for all signals
-ana A B Abar Bbar out
+ana A B out
