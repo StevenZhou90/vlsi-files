@@ -1,0 +1,62 @@
+magic
+tech scmos
+timestamp 1759249216
+<< checkpaint >>
+rect -58 1267 81 1384
+rect -80 120 81 1267
+rect -80 5 464 120
+rect 4 -67 464 5
+<< error_p >>
+rect 71 302 397 400
+rect 71 0 397 53
+<< metal1 >>
+rect -36 1436 0 1441
+rect -36 1254 -31 1436
+rect 9 1285 14 1314
+rect -36 1249 0 1254
+rect -36 1067 -31 1249
+rect -36 1062 0 1067
+rect -36 880 -31 1062
+rect 9 911 14 940
+rect -36 875 0 880
+rect -36 693 -31 875
+rect -36 688 0 693
+rect -36 506 -31 688
+rect 9 537 14 566
+rect -36 501 0 506
+rect -36 319 -31 501
+rect -36 314 0 319
+rect -36 132 -31 314
+rect 9 163 14 192
+rect -36 127 0 132
+<< m2contact >>
+rect -1 1346 4 1351
+rect -1 1159 4 1164
+rect -1 972 4 977
+rect -1 785 4 790
+rect -1 598 4 603
+rect -1 411 4 416
+rect -1 224 4 229
+rect -1 37 4 42
+<< metal2 >>
+rect -18 1346 -1 1351
+rect -18 1164 -13 1346
+rect -18 1159 -1 1164
+rect -18 977 -13 1159
+rect -18 972 -1 977
+rect -18 790 -13 972
+rect -18 785 -1 790
+rect -18 603 -13 785
+rect -18 598 -1 603
+rect -18 416 -13 598
+rect -18 411 -1 416
+rect -18 229 -13 411
+rect -18 224 -1 229
+rect -18 42 -13 224
+rect -18 37 -1 42
+use shift_one  shift_one_0
+array 0 0 144 0 7 187
+timestamp 1759249216
+transform 1 0 -2 0 1 7
+box 2 -7 146 161
+<< end >>
