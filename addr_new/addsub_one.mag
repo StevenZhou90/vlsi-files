@@ -1,11 +1,11 @@
 magic
 tech scmos
-timestamp 1759370557
+timestamp 1759371399
 << metal1 >>
 rect 109 153 115 158
 rect 109 145 114 153
 rect 23 136 27 141
-rect -27 77 80 82
+rect -28 77 80 82
 rect 159 77 164 107
 rect 189 77 203 82
 rect 363 77 393 82
@@ -28,6 +28,7 @@ rect 340 29 385 33
 rect 198 22 203 26
 rect -1 17 80 21
 rect 190 17 203 22
+rect 386 17 393 22
 rect -1 -60 3 17
 rect 101 -9 128 -4
 rect 157 -9 198 -4
@@ -39,7 +40,7 @@ rect 189 -43 198 -39
 rect 227 -45 250 -41
 rect 101 -54 128 -49
 rect 70 -60 75 -54
-rect -27 -64 75 -60
+rect -28 -64 75 -60
 rect 159 -61 164 -49
 rect 233 -59 238 -56
 rect 159 -66 202 -61
@@ -53,7 +54,7 @@ rect 128 -36 133 -31
 rect 250 -46 255 -41
 << metal2 >>
 rect -28 136 -20 140
-rect -27 43 12 48
+rect -28 43 12 48
 rect 7 -31 12 43
 rect 192 39 197 43
 rect 192 12 196 39
@@ -67,7 +68,7 @@ rect 118 -36 128 -32
 rect 159 -32 170 -31
 rect 164 -45 170 -32
 rect 254 -41 393 -40
-rect -27 -51 -2 -45
+rect -28 -51 -2 -45
 rect 4 -51 170 -45
 rect 255 -46 393 -41
 rect 387 -51 393 -46
@@ -111,30 +112,30 @@ rect 106 -58 111 -34
 rect 234 -38 245 -33
 rect 240 -58 245 -38
 rect 106 -63 245 -58
-use nand2  nand2_0
-timestamp 1759005747
-transform 1 0 77 0 1 -55
-box -7 -2 29 54
-use nand2  nand2_1
-timestamp 1759005747
-transform 1 0 135 0 1 -55
-box -7 -2 29 54
-use nand2  nand2_2
-timestamp 1759005747
-transform 1 0 205 0 1 -62
-box -7 -2 29 54
-use xor3  xor3_0 ~/Downloads/vlsi-files/addr_new
+use xor3  xor3_2
 timestamp 1759285841
-transform 1 0 95 0 1 76
+transform 1 0 67 0 -1 108
 box -95 -76 100 16
 use xor3  xor3_1
 timestamp 1759285841
 transform 1 0 290 0 1 76
 box -95 -76 100 16
-use xor3  xor3_2
+use xor3  xor3_0
 timestamp 1759285841
-transform 1 0 67 0 -1 108
+transform 1 0 95 0 1 76
 box -95 -76 100 16
+use nand2  nand2_2
+timestamp 1759005747
+transform 1 0 205 0 1 -62
+box -7 -2 29 54
+use nand2  nand2_1
+timestamp 1759005747
+transform 1 0 135 0 1 -55
+box -7 -2 29 54
+use nand2  nand2_0
+timestamp 1759005747
+transform 1 0 77 0 1 -55
+box -7 -2 29 54
 << labels >>
 rlabel metal1 39 -63 39 -63 1 GND!
 rlabel space 29 69 29 69 1 Vdd!
