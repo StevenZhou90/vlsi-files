@@ -1,0 +1,182 @@
+timestamp 1759372879
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t24i
+scale 1000 1 9
+resistclasses 6900 7800 946000 946000 1 8000 8000 80 80 80 80 80 40
+use xor3 xor3_1 1 0 290 0 1 76
+use xor3 xor3_0 1 0 95 0 1 76
+use nand2 nand2_2 1 0 205 0 1 -62
+use nand2 nand2_1 1 0 135 0 1 -55
+use nand2 nand2_0 1 0 77 0 1 -55
+node "m1_233_n64#" 3 714.802 233 -64 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 815 336 0 0 0 0 0 0 0 0 0 0
+node "m1_159_n66#" 1 248.89 159 -66 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 275 120 0 0 0 0 0 0 0 0 0 0
+node "m1_101_n54#" 0 128.098 101 -54 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 135 64 0 0 0 0 0 0 0 0 0 0
+node "cout" 3 356.079 227 -45 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 117 66 884 308 0 0 0 0 0 0 0 0
+node "m1_157_n39#" 1 202.566 157 -39 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 217 100 0 0 0 0 0 0 0 0 0 0
+node "m1_99_n39#" 4 224.557 99 -39 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60 44 50 40 1020 418 0 0 0 0 0 0
+node "a" 3 292.007 70 -36 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 910 374 0 0 0 0 0 0 0 0
+node "cin" 6 561.414 159 -31 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 1999 690 281 132 0 0 0 0 0 0
+node "b" 4 237.685 101 -28 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 50 40 1269 452 0 0 0 0 0 0
+node "m1_157_n9#" 1 213.12 157 -9 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 226 106 0 0 0 0 0 0 0 0 0 0
+node "m1_101_n9#" 0 128.098 101 -9 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 135 64 0 0 0 0 0 0 0 0 0 0
+node "m1_386_17#" 0 41.818 386 17 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 35 24 0 0 0 0 0 0 0 0 0 0
+node "GND!" 5 1057.26 -28 -64 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1074 542 0 0 0 0 0 0 0 0 0 0
+node "m1_190_17#" 2 225.229 190 17 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 140 66 25 20 615 256 0 0 0 0 0 0
+node "s" 1 287.332 333 39 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 284 150 0 0 0 0 0 0 0 0 0 0
+node "m1_128_n36#" 6 628.309 128 -36 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 414 216 715 370 0 0 0 0 0 0 0 0
+node "m1_8_66#" 3 172.571 8 66 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 55 42 50 40 710 294 0 0 0 0 0 0
+node "m1_363_77#" 0 141.04 363 77 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 150 70 0 0 0 0 0 0 0 0 0 0
+node "m1_189_77#" 0 145.354 189 77 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 155 72 0 0 0 0 0 0 0 0 0 0
+node "m1_159_77#" 0 76.33 159 77 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 75 40 0 0 0 0 0 0 0 0 0 0
+node "m1_n28_77#" 2 477.532 -28 77 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 540 226 0 0 0 0 0 0 0 0 0 0
+cap "a" "GND!" 31.644
+cap "GND!" "b" 31.728
+cap "cin" "m1_157_n39#" 118.083
+cap "m1_99_n39#" "m1_233_n64#" 21.276
+cap "cin" "m1_128_n36#" 407.6
+cap "a" "m1_8_66#" 255.244
+cap "m1_99_n39#" "b" 170.353
+cap "m1_8_66#" "b" 482.85
+cap "m1_99_n39#" "m1_101_n54#" 6.6
+cap "b" "m1_n28_77#" 11.7
+cap "cin" "m1_101_n54#" 97.358
+cap "m1_99_n39#" "cout" 87.1567
+cap "m1_190_17#" "m1_128_n36#" 168.055
+cap "m1_190_17#" "m1_159_77#" 4.2
+cap "m1_8_66#" "GND!" 3.048
+cap "cin" "GND!" 39.304
+cap "cin" "m1_99_n39#" 83.5843
+cap "m1_8_66#" "m1_n28_77#" 46.174
+cap "m1_99_n39#" "m1_159_n66#" 53.652
+cap "m1_128_n36#" "m1_101_n9#" 31.644
+cap "cin" "m1_159_n66#" 22.162
+cap "cin" "m1_157_n9#" 41.126
+cap "m1_190_17#" "m1_189_77#" 29.676
+cap "m1_101_n9#" "b" 13.2
+subcap "a" -143.649
+cap "xor3_0/inv_0/GND!" "nand2_0/A" -0.407
+cap "xor3_0/inv_0/GND!" "cin" 11.202
+cap "nand2_0/Vdd!" "nand2_0/A" 0.814
+cap "xor3_0/inv_0/GND!" "xor3_0/Abar" 114.224
+cap "xor3_0/inv_0/GND!" "b" 2.34
+cap "xor3_0/Abar" "b" 66.486
+subcap "m1_159_n66#" -46.722
+subcap "m1_157_n39#" -168.054
+subcap "m1_99_n39#" -155.838
+subcap "a" -290.953
+subcap "cin" -481.942
+subcap "b" -186.684
+subcap "m1_128_n36#" -573.178
+cap "nand2_1/B" "nand2_0/a_7_10#" 2.849
+cap "xor3_0/Bbar" "xor3_0/out" 336.761
+cap "nand2_1/GND!" "nand2_1/A" 2.035
+cap "nand2_1/Vdd!" "nand2_1/B" 10.175
+cap "nand2_1/B" "nand2_0/out" 13.087
+cap "xor3_0/Abar" "xor3_0/out" 43.304
+cap "xor3_0/Bbar" "nand2_1/A" 81.964
+cap "nand2_1/GND!" "nand2_0/A" 1.221
+cap "nand2_1/Vdd!" "nand2_0/B" 14.68
+cap "nand2_0/B" "nand2_0/out" 69.261
+cap "nand2_1/A" "nand2_1/B" 4.848
+cap "xor3_0/Abar" "nand2_1/A" 407.6
+cap "nand2_0/A" "nand2_1/B" 4.848
+cap "nand2_1/GND!" "nand2_1/out" 24.388
+cap "nand2_1/B" "nand2_1/a_7_10#" 2.849
+cap "nand2_1/GND!" "nand2_1/B" 262.136
+cap "nand2_1/B" "nand2_1/out" 43.8697
+cap "xor3_0/a_76_n45#" "xor3_0/out" 2.332
+cap "xor3_0/Bbar" "nand2_1/B" 8.948
+cap "nand2_1/Vdd!" "nand2_1/A" 2.035
+cap "xor3_0/Bbar" "xor3_0/Abar" -9.436
+cap "xor3_0/Bbar" "nand2_0/B" 23.94
+cap "nand2_1/Vdd!" "nand2_0/A" 1.221
+cap "nand2_0/B" "nand2_1/B" 4.848
+cap "nand2_1/GND!" "nand2_0/out" 33.132
+subcap "m1_233_n64#" -514.738
+subcap "cout" -255.852
+subcap "m1_190_17#" -73.282
+cap "xor3_0/Bbar" "m1_128_n36#" 35.844
+cap "xor3_1/inv_0/GND!" "nand2_1/B" 14.088
+cap "nand2_2/GND!" "nand2_2/B" 55.503
+cap "xor3_0/Bbar" "m1_128_n36#" 55.382
+cap "nand2_2/GND!" "nand2_2/out" 22.764
+cap "xor3_0/Bbar" "nand2_1/B" 16.874
+cap "xor3_1/inv_0/GND!" "m1_128_n36#" 182.258
+cap "nand2_2/Vdd!" "nand2_2/B" 3.265
+cap "nand2_1/B" "xor3_1/Abar" 36.385
+cap "nand2_2/B" "nand2_2/out" 30.7827
+cap "xor3_0/a_76_n45#" "m1_128_n36#" 9.328
+subcap "s" -320.128
+cap "xor3_1/Bbar" "xor3_1/out" 304.238
+cap "xor3_1/Abar" "xor3_1/out" 68.4587
+cap "xor3_1/Bbar" "xor3_1/Abar" -4.526
+cap "xor3_1/a_76_n45#" "xor3_1/out" 36.8147
+subcap "m1_386_17#" -8.294
+cap "xor3_1/Bbar" "s" 29.434
+cap "xor3_1/GND!" "s" 101.784
+cap "xor3_0/inv_0/Vdd!" "xor3_0/A" 187.441
+cap "xor3_0/A" "xor3_0/B" 36.385
+cap "xor3_0/inv_0/Vdd!" "xor3_0/B" 11.208
+cap "xor3_0/inv_0/GND!" "xor3_0/B" 3.582
+cap "xor3_0/out" "xor3_0/Abar" 57.7175
+cap "xor3_0/Vdd!" "xor3_0/A" -11.524
+cap "xor3_0/inv_0/out" "m1_190_17#" -0.094
+cap "xor3_0/Abar" "m1_190_17#" 2.974
+cap "xor3_0/Vdd!" "m1_190_17#" 45.836
+cap "xor3_0/a_7_n16#" "m1_190_17#" 27.636
+cap "xor3_0/out" "xor3_0/Bbar" 34.512
+cap "xor3_1/inv_0/Vdd!" "xor3_1/inv_0/GND!" 14.28
+cap "xor3_0/Bbar" "xor3_1/A" 56.523
+cap "xor3_1/inv_0/Vdd!" "xor3_1/B" 0.492
+cap "xor3_0/w_n15_n30#" "xor3_1/inv_0/GND!" 6.12
+cap "xor3_1/inv_0/GND!" "xor3_0/a_7_n16#" 7.44
+cap "xor3_1/inv_0/GND!" "xor3_1/B" 3.582
+cap "xor3_1/inv_0/GND!" "xor3_0/a_76_n45#" -0.376
+cap "xor3_1/inv_0/GND!" "xor3_1/A" 2.641
+cap "xor3_0/w_n15_n30#" "xor3_0/a_76_n45#" -2.84217e-14
+cap "xor3_0/w_n15_n30#" "xor3_1/A" 16.844
+subcap "s" -300.068
+subcap "m1_363_77#" -135.23
+cap "xor3_1/a_76_n45#" "xor3_1/out" 16.4907
+cap "xor3_1/Bbar" "xor3_1/out" 34.512
+cap "xor3_1/Abar" "xor3_1/out" 74.2082
+subcap "m1_363_77#" -107.516
+merge "nand2_2/B" "nand2_0/out" -118.945 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -30 0 0 0 0 0 0 0 0 0 0
+merge "nand2_0/out" "m1_99_n39#"
+merge "xor3_0/Vdd!" "m1_159_77#" -28.89 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15 -30 0 0 0 0 0 0 0 0 0 0
+merge "m1_159_77#" "xor3_0/inv_0/Vdd!"
+merge "xor3_0/inv_0/Vdd!" "m1_n28_77#"
+merge "m1_n28_77#" "nand2_2/Vdd!"
+merge "nand2_2/Vdd!" "nand2_0/Vdd!"
+merge "nand2_0/Vdd!" "m1_8_66#"
+merge "m1_8_66#" "nand2_1/Vdd!"
+merge "nand2_1/Vdd!" "m1_101_n9#"
+merge "m1_101_n9#" "m1_157_n9#"
+merge "m1_157_n9#" "xor3_1/inv_0/Vdd!"
+merge "xor3_1/inv_0/Vdd!" "m1_189_77#"
+merge "nand2_2/out" "cout" -58.376 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -63 -45 0 0 0 0 0 0 0 0
+merge "nand2_2/GND!" "xor3_0/Bbar" -16.442 0 0 0 0 0 0 0 0 0 0 0 0 0 0 35 -20 0 0 0 0 0 0 0 0 0 0
+merge "xor3_0/Bbar" "nand2_0/GND!"
+merge "nand2_0/GND!" "xor3_0/inv_0/GND!"
+merge "xor3_0/inv_0/GND!" "GND!"
+merge "GND!" "nand2_1/GND!"
+merge "nand2_1/GND!" "m1_101_n54#"
+merge "m1_101_n54#" "m1_159_n66#"
+merge "m1_159_n66#" "m1_233_n64#"
+merge "xor3_1/A" "nand2_1/A" -536.514 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -138 -74 -194 -126 0 0 0 0 0 0 0 0
+merge "nand2_1/A" "xor3_0/out"
+merge "xor3_0/out" "m1_128_n36#"
+merge "xor3_1/GND!" "m1_386_17#" -28.876 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 -18 0 0 0 0 0 0 0 0 0 0
+merge "xor3_1/B" "nand2_1/B" -190.826 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15 -20 -25 -20 0 0 0 0 0 0 0 0
+merge "nand2_1/B" "cin"
+merge "xor3_1/out" "s" -274.198 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -63 -60 0 0 0 0 0 0 0 0 0 0
+merge "xor3_0/GND!" "xor3_1/inv_0/GND!" -96.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -30 0 0 -220 -93 0 0 0 0 0 0
+merge "xor3_1/inv_0/GND!" "m1_190_17#"
+merge "xor3_0/A" "nand2_0/A" -102.023 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40 -20 -60 -34 0 0 0 0 0 0 0 0
+merge "nand2_0/A" "a"
+merge "nand2_2/A" "nand2_1/out" -47.628 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0 0 0
+merge "nand2_1/out" "m1_157_n39#"
+merge "xor3_0/B" "nand2_0/B" -90.934 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -14 -25 -20 0 0 0 0 0 0 0 0
+merge "nand2_0/B" "b"
+merge "xor3_1/Vdd!" "m1_363_77#" -123.784 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -130 -62 0 0 0 0 0 0 0 0 0 0

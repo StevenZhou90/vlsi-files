@@ -1,0 +1,575 @@
+| units: 9 tech: scmos format: MIT
+n cin GND! xor3_0[0]/inv_0/out 2 5 64 211
+p cin Vdd! xor3_0[0]/inv_0/out 2 10 64 194
+n b0 GND! xor3_0[0]/Abar 2 5 28 211
+p b0 Vdd! xor3_0[0]/Abar 2 10 28 194
+n cin xor3_0[0]/a_7_n41# xor3_0[0]/out 5 4 119 210
+n xor3_0[0]/inv_0/out xor3_0[0]/a_63_n41# GND! 5 4 171 210
+p cin xor3_0[0]/a_7_n16# Vdd! 5 5 119 185
+n xor3_0[0]/Abar xor3_0[0]/out xor3_0[0]/a_63_n41# 5 4 153 210
+p xor3_0[0]/inv_0/out xor3_0[0]/out xor3_0[0]/a_7_n16# 5 10 171 190
+p xor3_0[0]/Abar xor3_0[0]/a_7_n16# xor3_0[0]/out 5 10 153 190
+n b0 GND! xor3_0[0]/a_7_n41# 5 4 97 210
+p b0 Vdd! xor3_0[0]/a_7_n16# 5 5 97 185
+n cin GND! xor3_0[1]/inv_0/out 2 5 485 211
+p cin Vdd! xor3_0[1]/inv_0/out 2 10 485 194
+n b1 GND! xor3_0[1]/Abar 2 5 449 211
+p b1 Vdd! xor3_0[1]/Abar 2 10 449 194
+n cin xor3_0[1]/a_7_n41# xor3_0[1]/out 5 4 540 210
+n xor3_0[1]/inv_0/out xor3_0[1]/a_63_n41# GND! 5 4 592 210
+p cin xor3_0[1]/a_7_n16# Vdd! 5 5 540 185
+n xor3_0[1]/Abar xor3_0[1]/out xor3_0[1]/a_63_n41# 5 4 574 210
+p xor3_0[1]/inv_0/out xor3_0[1]/out xor3_0[1]/a_7_n16# 5 10 592 190
+p xor3_0[1]/Abar xor3_0[1]/a_7_n16# xor3_0[1]/out 5 10 574 190
+n b1 GND! xor3_0[1]/a_7_n41# 5 4 518 210
+p b1 Vdd! xor3_0[1]/a_7_n16# 5 5 518 185
+n cin GND! xor3_0[2]/inv_0/out 2 5 906 211
+p cin Vdd! xor3_0[2]/inv_0/out 2 10 906 194
+n b2 GND! xor3_0[2]/Abar 2 5 870 211
+p b2 Vdd! xor3_0[2]/Abar 2 10 870 194
+n cin xor3_0[2]/a_7_n41# xor3_0[2]/out 5 4 961 210
+n xor3_0[2]/inv_0/out xor3_0[2]/a_63_n41# GND! 5 4 1013 210
+p cin xor3_0[2]/a_7_n16# Vdd! 5 5 961 185
+n xor3_0[2]/Abar xor3_0[2]/out xor3_0[2]/a_63_n41# 5 4 995 210
+p xor3_0[2]/inv_0/out xor3_0[2]/out xor3_0[2]/a_7_n16# 5 10 1013 190
+p xor3_0[2]/Abar xor3_0[2]/a_7_n16# xor3_0[2]/out 5 10 995 190
+n b2 GND! xor3_0[2]/a_7_n41# 5 4 939 210
+p b2 Vdd! xor3_0[2]/a_7_n16# 5 5 939 185
+n cin GND! xor3_0[3]/inv_0/out 2 5 1327 211
+p cin Vdd! xor3_0[3]/inv_0/out 2 10 1327 194
+n b3 GND! xor3_0[3]/Abar 2 5 1291 211
+p b3 Vdd! xor3_0[3]/Abar 2 10 1291 194
+n cin xor3_0[3]/a_7_n41# xor3_0[3]/out 5 4 1382 210
+n xor3_0[3]/inv_0/out xor3_0[3]/a_63_n41# GND! 5 4 1434 210
+p cin xor3_0[3]/a_7_n16# Vdd! 5 5 1382 185
+n xor3_0[3]/Abar xor3_0[3]/out xor3_0[3]/a_63_n41# 5 4 1416 210
+p xor3_0[3]/inv_0/out xor3_0[3]/out xor3_0[3]/a_7_n16# 5 10 1434 190
+p xor3_0[3]/Abar xor3_0[3]/a_7_n16# xor3_0[3]/out 5 10 1416 190
+n b3 GND! xor3_0[3]/a_7_n41# 5 4 1360 210
+p b3 Vdd! xor3_0[3]/a_7_n16# 5 5 1360 185
+n cin GND! xor3_0[4]/inv_0/out 2 5 1748 211
+p cin Vdd! xor3_0[4]/inv_0/out 2 10 1748 194
+n b4 GND! xor3_0[4]/Abar 2 5 1712 211
+p b4 Vdd! xor3_0[4]/Abar 2 10 1712 194
+n cin xor3_0[4]/a_7_n41# xor3_0[4]/out 5 4 1803 210
+n xor3_0[4]/inv_0/out xor3_0[4]/a_63_n41# GND! 5 4 1855 210
+p cin xor3_0[4]/a_7_n16# Vdd! 5 5 1803 185
+n xor3_0[4]/Abar xor3_0[4]/out xor3_0[4]/a_63_n41# 5 4 1837 210
+p xor3_0[4]/inv_0/out xor3_0[4]/out xor3_0[4]/a_7_n16# 5 10 1855 190
+p xor3_0[4]/Abar xor3_0[4]/a_7_n16# xor3_0[4]/out 5 10 1837 190
+n b4 GND! xor3_0[4]/a_7_n41# 5 4 1781 210
+p b4 Vdd! xor3_0[4]/a_7_n16# 5 5 1781 185
+n cin GND! xor3_0[5]/inv_0/out 2 5 2169 211
+p cin Vdd! xor3_0[5]/inv_0/out 2 10 2169 194
+n b5 GND! xor3_0[5]/Abar 2 5 2133 211
+p b5 Vdd! xor3_0[5]/Abar 2 10 2133 194
+n cin xor3_0[5]/a_7_n41# xor3_0[5]/out 5 4 2224 210
+n xor3_0[5]/inv_0/out xor3_0[5]/a_63_n41# GND! 5 4 2276 210
+p cin xor3_0[5]/a_7_n16# Vdd! 5 5 2224 185
+n xor3_0[5]/Abar xor3_0[5]/out xor3_0[5]/a_63_n41# 5 4 2258 210
+p xor3_0[5]/inv_0/out xor3_0[5]/out xor3_0[5]/a_7_n16# 5 10 2276 190
+p xor3_0[5]/Abar xor3_0[5]/a_7_n16# xor3_0[5]/out 5 10 2258 190
+n b5 GND! xor3_0[5]/a_7_n41# 5 4 2202 210
+p b5 Vdd! xor3_0[5]/a_7_n16# 5 5 2202 185
+n cin GND! xor3_0[6]/inv_0/out 2 5 2590 211
+p cin Vdd! xor3_0[6]/inv_0/out 2 10 2590 194
+n b6 GND! xor3_0[6]/Abar 2 5 2554 211
+p b6 Vdd! xor3_0[6]/Abar 2 10 2554 194
+n cin xor3_0[6]/a_7_n41# xor3_0[6]/out 5 4 2645 210
+n xor3_0[6]/inv_0/out xor3_0[6]/a_63_n41# GND! 5 4 2697 210
+p cin xor3_0[6]/a_7_n16# Vdd! 5 5 2645 185
+n xor3_0[6]/Abar xor3_0[6]/out xor3_0[6]/a_63_n41# 5 4 2679 210
+p xor3_0[6]/inv_0/out xor3_0[6]/out xor3_0[6]/a_7_n16# 5 10 2697 190
+p xor3_0[6]/Abar xor3_0[6]/a_7_n16# xor3_0[6]/out 5 10 2679 190
+n b6 GND! xor3_0[6]/a_7_n41# 5 4 2623 210
+p b6 Vdd! xor3_0[6]/a_7_n16# 5 5 2623 185
+n cin GND! xor3_0[7]/inv_0/out 2 5 3011 211
+p cin Vdd! xor3_0[7]/inv_0/out 2 10 3011 194
+n b7 GND! xor3_0[7]/Abar 2 5 2975 211
+p b7 Vdd! xor3_0[7]/Abar 2 10 2975 194
+n cin xor3_0[7]/a_7_n41# xor3_0[7]/out 5 4 3066 210
+n xor3_0[7]/inv_0/out xor3_0[7]/a_63_n41# GND! 5 4 3118 210
+p cin xor3_0[7]/a_7_n16# Vdd! 5 5 3066 185
+n xor3_0[7]/Abar xor3_0[7]/out xor3_0[7]/a_63_n41# 5 4 3100 210
+p xor3_0[7]/inv_0/out xor3_0[7]/out xor3_0[7]/a_7_n16# 5 10 3118 190
+p xor3_0[7]/Abar xor3_0[7]/a_7_n16# xor3_0[7]/out 5 10 3100 190
+n b7 GND! xor3_0[7]/a_7_n41# 5 4 3044 210
+p b7 Vdd! xor3_0[7]/a_7_n16# 5 5 3044 185
+n xor3_0[0]/out GND! addsub_one_0[0]/xor3_0/inv_0/out 2 5 92 98
+p xor3_0[0]/out Vdd! addsub_one_0[0]/xor3_0/inv_0/out 2 10 92 115
+n a0 GND! addsub_one_0[0]/xor3_0/Abar 2 5 56 98
+p a0 Vdd! addsub_one_0[0]/xor3_0/Abar 2 10 56 115
+n xor3_0[0]/out addsub_one_0[0]/xor3_0/a_7_n41# addsub_one_0[0]/xor3_1/A 5 4 147 99
+n addsub_one_0[0]/xor3_0/inv_0/out addsub_one_0[0]/xor3_0/a_63_n41# GND! 5 4 199 99
+p xor3_0[0]/out addsub_one_0[0]/xor3_0/a_7_n16# Vdd! 5 5 147 124
+n addsub_one_0[0]/xor3_0/Abar addsub_one_0[0]/xor3_1/A addsub_one_0[0]/xor3_0/a_63_n41# 5 4 181 99
+p addsub_one_0[0]/xor3_0/inv_0/out addsub_one_0[0]/xor3_1/A addsub_one_0[0]/xor3_0/a_7_n16# 5 10 199 119
+p addsub_one_0[0]/xor3_0/Abar addsub_one_0[0]/xor3_0/a_7_n16# addsub_one_0[0]/xor3_1/A 5 10 181 119
+n a0 GND! addsub_one_0[0]/xor3_0/a_7_n41# 5 4 125 99
+p a0 Vdd! addsub_one_0[0]/xor3_0/a_7_n16# 5 5 125 124
+n cin GND! addsub_one_0[0]/xor3_1/inv_0/out 2 5 287 98
+p cin Vdd! addsub_one_0[0]/xor3_1/inv_0/out 2 10 287 115
+n addsub_one_0[0]/xor3_1/A GND! addsub_one_0[0]/xor3_1/Abar 2 5 251 98
+p addsub_one_0[0]/xor3_1/A Vdd! addsub_one_0[0]/xor3_1/Abar 2 10 251 115
+n cin addsub_one_0[0]/xor3_1/a_7_n41# s0 5 4 342 99
+n addsub_one_0[0]/xor3_1/inv_0/out addsub_one_0[0]/xor3_1/a_63_n41# GND! 5 4 394 99
+p cin addsub_one_0[0]/xor3_1/a_7_n16# Vdd! 5 5 342 124
+n addsub_one_0[0]/xor3_1/Abar s0 addsub_one_0[0]/xor3_1/a_63_n41# 5 4 376 99
+p addsub_one_0[0]/xor3_1/inv_0/out s0 addsub_one_0[0]/xor3_1/a_7_n16# 5 10 394 119
+p addsub_one_0[0]/xor3_1/Abar addsub_one_0[0]/xor3_1/a_7_n16# s0 5 10 376 119
+n addsub_one_0[0]/xor3_1/A GND! addsub_one_0[0]/xor3_1/a_7_n41# 5 4 320 99
+p addsub_one_0[0]/xor3_1/A Vdd! addsub_one_0[0]/xor3_1/a_7_n16# 5 5 320 124
+n a0 GND! addsub_one_0[0]/nand2_0/a_7_10# 2 6 110 18
+p a0 Vdd! addsub_one_0[0]/nand2_2/B 2 12 110 38
+n xor3_0[0]/out addsub_one_0[0]/nand2_0/a_7_10# addsub_one_0[0]/nand2_2/B 2 6 119 18
+p xor3_0[0]/out addsub_one_0[0]/nand2_2/B Vdd! 2 12 119 38
+n addsub_one_0[0]/xor3_1/A GND! addsub_one_0[0]/nand2_1/a_7_10# 2 6 168 18
+p addsub_one_0[0]/xor3_1/A Vdd! addsub_one_0[0]/nand2_2/A 2 12 168 38
+n cin addsub_one_0[0]/nand2_1/a_7_10# addsub_one_0[0]/nand2_2/A 2 6 177 18
+p cin addsub_one_0[0]/nand2_2/A Vdd! 2 12 177 38
+n addsub_one_0[0]/nand2_2/A GND! addsub_one_0[0]/nand2_2/a_7_10# 2 6 238 11
+p addsub_one_0[0]/nand2_2/A Vdd! addsub_one_0[1]/cin 2 12 238 31
+n addsub_one_0[0]/nand2_2/B addsub_one_0[0]/nand2_2/a_7_10# addsub_one_0[1]/cin 2 6 247 11
+p addsub_one_0[0]/nand2_2/B addsub_one_0[1]/cin Vdd! 2 12 247 31
+n xor3_0[1]/out GND! addsub_one_0[1]/xor3_0/inv_0/out 2 5 513 98
+p xor3_0[1]/out Vdd! addsub_one_0[1]/xor3_0/inv_0/out 2 10 513 115
+n a1 GND! addsub_one_0[1]/xor3_0/Abar 2 5 477 98
+p a1 Vdd! addsub_one_0[1]/xor3_0/Abar 2 10 477 115
+n xor3_0[1]/out addsub_one_0[1]/xor3_0/a_7_n41# addsub_one_0[1]/xor3_1/A 5 4 568 99
+n addsub_one_0[1]/xor3_0/inv_0/out addsub_one_0[1]/xor3_0/a_63_n41# GND! 5 4 620 99
+p xor3_0[1]/out addsub_one_0[1]/xor3_0/a_7_n16# Vdd! 5 5 568 124
+n addsub_one_0[1]/xor3_0/Abar addsub_one_0[1]/xor3_1/A addsub_one_0[1]/xor3_0/a_63_n41# 5 4 602 99
+p addsub_one_0[1]/xor3_0/inv_0/out addsub_one_0[1]/xor3_1/A addsub_one_0[1]/xor3_0/a_7_n16# 5 10 620 119
+p addsub_one_0[1]/xor3_0/Abar addsub_one_0[1]/xor3_0/a_7_n16# addsub_one_0[1]/xor3_1/A 5 10 602 119
+n a1 GND! addsub_one_0[1]/xor3_0/a_7_n41# 5 4 546 99
+p a1 Vdd! addsub_one_0[1]/xor3_0/a_7_n16# 5 5 546 124
+n addsub_one_0[1]/cin GND! addsub_one_0[1]/xor3_1/inv_0/out 2 5 708 98
+p addsub_one_0[1]/cin Vdd! addsub_one_0[1]/xor3_1/inv_0/out 2 10 708 115
+n addsub_one_0[1]/xor3_1/A GND! addsub_one_0[1]/xor3_1/Abar 2 5 672 98
+p addsub_one_0[1]/xor3_1/A Vdd! addsub_one_0[1]/xor3_1/Abar 2 10 672 115
+n addsub_one_0[1]/cin addsub_one_0[1]/xor3_1/a_7_n41# s1 5 4 763 99
+n addsub_one_0[1]/xor3_1/inv_0/out addsub_one_0[1]/xor3_1/a_63_n41# GND! 5 4 815 99
+p addsub_one_0[1]/cin addsub_one_0[1]/xor3_1/a_7_n16# Vdd! 5 5 763 124
+n addsub_one_0[1]/xor3_1/Abar s1 addsub_one_0[1]/xor3_1/a_63_n41# 5 4 797 99
+p addsub_one_0[1]/xor3_1/inv_0/out s1 addsub_one_0[1]/xor3_1/a_7_n16# 5 10 815 119
+p addsub_one_0[1]/xor3_1/Abar addsub_one_0[1]/xor3_1/a_7_n16# s1 5 10 797 119
+n addsub_one_0[1]/xor3_1/A GND! addsub_one_0[1]/xor3_1/a_7_n41# 5 4 741 99
+p addsub_one_0[1]/xor3_1/A Vdd! addsub_one_0[1]/xor3_1/a_7_n16# 5 5 741 124
+n a1 GND! addsub_one_0[1]/nand2_0/a_7_10# 2 6 531 18
+p a1 Vdd! addsub_one_0[1]/nand2_2/B 2 12 531 38
+n xor3_0[1]/out addsub_one_0[1]/nand2_0/a_7_10# addsub_one_0[1]/nand2_2/B 2 6 540 18
+p xor3_0[1]/out addsub_one_0[1]/nand2_2/B Vdd! 2 12 540 38
+n addsub_one_0[1]/xor3_1/A GND! addsub_one_0[1]/nand2_1/a_7_10# 2 6 589 18
+p addsub_one_0[1]/xor3_1/A Vdd! addsub_one_0[1]/nand2_2/A 2 12 589 38
+n addsub_one_0[1]/cin addsub_one_0[1]/nand2_1/a_7_10# addsub_one_0[1]/nand2_2/A 2 6 598 18
+p addsub_one_0[1]/cin addsub_one_0[1]/nand2_2/A Vdd! 2 12 598 38
+n addsub_one_0[1]/nand2_2/A GND! addsub_one_0[1]/nand2_2/a_7_10# 2 6 659 11
+p addsub_one_0[1]/nand2_2/A Vdd! addsub_one_0[2]/cin 2 12 659 31
+n addsub_one_0[1]/nand2_2/B addsub_one_0[1]/nand2_2/a_7_10# addsub_one_0[2]/cin 2 6 668 11
+p addsub_one_0[1]/nand2_2/B addsub_one_0[2]/cin Vdd! 2 12 668 31
+n xor3_0[2]/out GND! addsub_one_0[2]/xor3_0/inv_0/out 2 5 934 98
+p xor3_0[2]/out Vdd! addsub_one_0[2]/xor3_0/inv_0/out 2 10 934 115
+n a2 GND! addsub_one_0[2]/xor3_0/Abar 2 5 898 98
+p a2 Vdd! addsub_one_0[2]/xor3_0/Abar 2 10 898 115
+n xor3_0[2]/out addsub_one_0[2]/xor3_0/a_7_n41# addsub_one_0[2]/xor3_1/A 5 4 989 99
+n addsub_one_0[2]/xor3_0/inv_0/out addsub_one_0[2]/xor3_0/a_63_n41# GND! 5 4 1041 99
+p xor3_0[2]/out addsub_one_0[2]/xor3_0/a_7_n16# Vdd! 5 5 989 124
+n addsub_one_0[2]/xor3_0/Abar addsub_one_0[2]/xor3_1/A addsub_one_0[2]/xor3_0/a_63_n41# 5 4 1023 99
+p addsub_one_0[2]/xor3_0/inv_0/out addsub_one_0[2]/xor3_1/A addsub_one_0[2]/xor3_0/a_7_n16# 5 10 1041 119
+p addsub_one_0[2]/xor3_0/Abar addsub_one_0[2]/xor3_0/a_7_n16# addsub_one_0[2]/xor3_1/A 5 10 1023 119
+n a2 GND! addsub_one_0[2]/xor3_0/a_7_n41# 5 4 967 99
+p a2 Vdd! addsub_one_0[2]/xor3_0/a_7_n16# 5 5 967 124
+n addsub_one_0[2]/cin GND! addsub_one_0[2]/xor3_1/inv_0/out 2 5 1129 98
+p addsub_one_0[2]/cin Vdd! addsub_one_0[2]/xor3_1/inv_0/out 2 10 1129 115
+n addsub_one_0[2]/xor3_1/A GND! addsub_one_0[2]/xor3_1/Abar 2 5 1093 98
+p addsub_one_0[2]/xor3_1/A Vdd! addsub_one_0[2]/xor3_1/Abar 2 10 1093 115
+n addsub_one_0[2]/cin addsub_one_0[2]/xor3_1/a_7_n41# s2 5 4 1184 99
+n addsub_one_0[2]/xor3_1/inv_0/out addsub_one_0[2]/xor3_1/a_63_n41# GND! 5 4 1236 99
+p addsub_one_0[2]/cin addsub_one_0[2]/xor3_1/a_7_n16# Vdd! 5 5 1184 124
+n addsub_one_0[2]/xor3_1/Abar s2 addsub_one_0[2]/xor3_1/a_63_n41# 5 4 1218 99
+p addsub_one_0[2]/xor3_1/inv_0/out s2 addsub_one_0[2]/xor3_1/a_7_n16# 5 10 1236 119
+p addsub_one_0[2]/xor3_1/Abar addsub_one_0[2]/xor3_1/a_7_n16# s2 5 10 1218 119
+n addsub_one_0[2]/xor3_1/A GND! addsub_one_0[2]/xor3_1/a_7_n41# 5 4 1162 99
+p addsub_one_0[2]/xor3_1/A Vdd! addsub_one_0[2]/xor3_1/a_7_n16# 5 5 1162 124
+n a2 GND! addsub_one_0[2]/nand2_0/a_7_10# 2 6 952 18
+p a2 Vdd! addsub_one_0[2]/nand2_2/B 2 12 952 38
+n xor3_0[2]/out addsub_one_0[2]/nand2_0/a_7_10# addsub_one_0[2]/nand2_2/B 2 6 961 18
+p xor3_0[2]/out addsub_one_0[2]/nand2_2/B Vdd! 2 12 961 38
+n addsub_one_0[2]/xor3_1/A GND! addsub_one_0[2]/nand2_1/a_7_10# 2 6 1010 18
+p addsub_one_0[2]/xor3_1/A Vdd! addsub_one_0[2]/nand2_2/A 2 12 1010 38
+n addsub_one_0[2]/cin addsub_one_0[2]/nand2_1/a_7_10# addsub_one_0[2]/nand2_2/A 2 6 1019 18
+p addsub_one_0[2]/cin addsub_one_0[2]/nand2_2/A Vdd! 2 12 1019 38
+n addsub_one_0[2]/nand2_2/A GND! addsub_one_0[2]/nand2_2/a_7_10# 2 6 1080 11
+p addsub_one_0[2]/nand2_2/A Vdd! addsub_one_0[3]/cin 2 12 1080 31
+n addsub_one_0[2]/nand2_2/B addsub_one_0[2]/nand2_2/a_7_10# addsub_one_0[3]/cin 2 6 1089 11
+p addsub_one_0[2]/nand2_2/B addsub_one_0[3]/cin Vdd! 2 12 1089 31
+n xor3_0[3]/out GND! addsub_one_0[3]/xor3_0/inv_0/out 2 5 1355 98
+p xor3_0[3]/out Vdd! addsub_one_0[3]/xor3_0/inv_0/out 2 10 1355 115
+n a3 GND! addsub_one_0[3]/xor3_0/Abar 2 5 1319 98
+p a3 Vdd! addsub_one_0[3]/xor3_0/Abar 2 10 1319 115
+n xor3_0[3]/out addsub_one_0[3]/xor3_0/a_7_n41# addsub_one_0[3]/xor3_1/A 5 4 1410 99
+n addsub_one_0[3]/xor3_0/inv_0/out addsub_one_0[3]/xor3_0/a_63_n41# GND! 5 4 1462 99
+p xor3_0[3]/out addsub_one_0[3]/xor3_0/a_7_n16# Vdd! 5 5 1410 124
+n addsub_one_0[3]/xor3_0/Abar addsub_one_0[3]/xor3_1/A addsub_one_0[3]/xor3_0/a_63_n41# 5 4 1444 99
+p addsub_one_0[3]/xor3_0/inv_0/out addsub_one_0[3]/xor3_1/A addsub_one_0[3]/xor3_0/a_7_n16# 5 10 1462 119
+p addsub_one_0[3]/xor3_0/Abar addsub_one_0[3]/xor3_0/a_7_n16# addsub_one_0[3]/xor3_1/A 5 10 1444 119
+n a3 GND! addsub_one_0[3]/xor3_0/a_7_n41# 5 4 1388 99
+p a3 Vdd! addsub_one_0[3]/xor3_0/a_7_n16# 5 5 1388 124
+n addsub_one_0[3]/cin GND! addsub_one_0[3]/xor3_1/inv_0/out 2 5 1550 98
+p addsub_one_0[3]/cin Vdd! addsub_one_0[3]/xor3_1/inv_0/out 2 10 1550 115
+n addsub_one_0[3]/xor3_1/A GND! addsub_one_0[3]/xor3_1/Abar 2 5 1514 98
+p addsub_one_0[3]/xor3_1/A Vdd! addsub_one_0[3]/xor3_1/Abar 2 10 1514 115
+n addsub_one_0[3]/cin addsub_one_0[3]/xor3_1/a_7_n41# s3 5 4 1605 99
+n addsub_one_0[3]/xor3_1/inv_0/out addsub_one_0[3]/xor3_1/a_63_n41# GND! 5 4 1657 99
+p addsub_one_0[3]/cin addsub_one_0[3]/xor3_1/a_7_n16# Vdd! 5 5 1605 124
+n addsub_one_0[3]/xor3_1/Abar s3 addsub_one_0[3]/xor3_1/a_63_n41# 5 4 1639 99
+p addsub_one_0[3]/xor3_1/inv_0/out s3 addsub_one_0[3]/xor3_1/a_7_n16# 5 10 1657 119
+p addsub_one_0[3]/xor3_1/Abar addsub_one_0[3]/xor3_1/a_7_n16# s3 5 10 1639 119
+n addsub_one_0[3]/xor3_1/A GND! addsub_one_0[3]/xor3_1/a_7_n41# 5 4 1583 99
+p addsub_one_0[3]/xor3_1/A Vdd! addsub_one_0[3]/xor3_1/a_7_n16# 5 5 1583 124
+n a3 GND! addsub_one_0[3]/nand2_0/a_7_10# 2 6 1373 18
+p a3 Vdd! addsub_one_0[3]/nand2_2/B 2 12 1373 38
+n xor3_0[3]/out addsub_one_0[3]/nand2_0/a_7_10# addsub_one_0[3]/nand2_2/B 2 6 1382 18
+p xor3_0[3]/out addsub_one_0[3]/nand2_2/B Vdd! 2 12 1382 38
+n addsub_one_0[3]/xor3_1/A GND! addsub_one_0[3]/nand2_1/a_7_10# 2 6 1431 18
+p addsub_one_0[3]/xor3_1/A Vdd! addsub_one_0[3]/nand2_2/A 2 12 1431 38
+n addsub_one_0[3]/cin addsub_one_0[3]/nand2_1/a_7_10# addsub_one_0[3]/nand2_2/A 2 6 1440 18
+p addsub_one_0[3]/cin addsub_one_0[3]/nand2_2/A Vdd! 2 12 1440 38
+n addsub_one_0[3]/nand2_2/A GND! addsub_one_0[3]/nand2_2/a_7_10# 2 6 1501 11
+p addsub_one_0[3]/nand2_2/A Vdd! addsub_one_0[4]/cin 2 12 1501 31
+n addsub_one_0[3]/nand2_2/B addsub_one_0[3]/nand2_2/a_7_10# addsub_one_0[4]/cin 2 6 1510 11
+p addsub_one_0[3]/nand2_2/B addsub_one_0[4]/cin Vdd! 2 12 1510 31
+n xor3_0[4]/out GND! addsub_one_0[4]/xor3_0/inv_0/out 2 5 1776 98
+p xor3_0[4]/out Vdd! addsub_one_0[4]/xor3_0/inv_0/out 2 10 1776 115
+n a4 GND! addsub_one_0[4]/xor3_0/Abar 2 5 1740 98
+p a4 Vdd! addsub_one_0[4]/xor3_0/Abar 2 10 1740 115
+n xor3_0[4]/out addsub_one_0[4]/xor3_0/a_7_n41# addsub_one_0[4]/xor3_1/A 5 4 1831 99
+n addsub_one_0[4]/xor3_0/inv_0/out addsub_one_0[4]/xor3_0/a_63_n41# GND! 5 4 1883 99
+p xor3_0[4]/out addsub_one_0[4]/xor3_0/a_7_n16# Vdd! 5 5 1831 124
+n addsub_one_0[4]/xor3_0/Abar addsub_one_0[4]/xor3_1/A addsub_one_0[4]/xor3_0/a_63_n41# 5 4 1865 99
+p addsub_one_0[4]/xor3_0/inv_0/out addsub_one_0[4]/xor3_1/A addsub_one_0[4]/xor3_0/a_7_n16# 5 10 1883 119
+p addsub_one_0[4]/xor3_0/Abar addsub_one_0[4]/xor3_0/a_7_n16# addsub_one_0[4]/xor3_1/A 5 10 1865 119
+n a4 GND! addsub_one_0[4]/xor3_0/a_7_n41# 5 4 1809 99
+p a4 Vdd! addsub_one_0[4]/xor3_0/a_7_n16# 5 5 1809 124
+n addsub_one_0[4]/cin GND! addsub_one_0[4]/xor3_1/inv_0/out 2 5 1971 98
+p addsub_one_0[4]/cin Vdd! addsub_one_0[4]/xor3_1/inv_0/out 2 10 1971 115
+n addsub_one_0[4]/xor3_1/A GND! addsub_one_0[4]/xor3_1/Abar 2 5 1935 98
+p addsub_one_0[4]/xor3_1/A Vdd! addsub_one_0[4]/xor3_1/Abar 2 10 1935 115
+n addsub_one_0[4]/cin addsub_one_0[4]/xor3_1/a_7_n41# s4 5 4 2026 99
+n addsub_one_0[4]/xor3_1/inv_0/out addsub_one_0[4]/xor3_1/a_63_n41# GND! 5 4 2078 99
+p addsub_one_0[4]/cin addsub_one_0[4]/xor3_1/a_7_n16# Vdd! 5 5 2026 124
+n addsub_one_0[4]/xor3_1/Abar s4 addsub_one_0[4]/xor3_1/a_63_n41# 5 4 2060 99
+p addsub_one_0[4]/xor3_1/inv_0/out s4 addsub_one_0[4]/xor3_1/a_7_n16# 5 10 2078 119
+p addsub_one_0[4]/xor3_1/Abar addsub_one_0[4]/xor3_1/a_7_n16# s4 5 10 2060 119
+n addsub_one_0[4]/xor3_1/A GND! addsub_one_0[4]/xor3_1/a_7_n41# 5 4 2004 99
+p addsub_one_0[4]/xor3_1/A Vdd! addsub_one_0[4]/xor3_1/a_7_n16# 5 5 2004 124
+n a4 GND! addsub_one_0[4]/nand2_0/a_7_10# 2 6 1794 18
+p a4 Vdd! addsub_one_0[4]/nand2_2/B 2 12 1794 38
+n xor3_0[4]/out addsub_one_0[4]/nand2_0/a_7_10# addsub_one_0[4]/nand2_2/B 2 6 1803 18
+p xor3_0[4]/out addsub_one_0[4]/nand2_2/B Vdd! 2 12 1803 38
+n addsub_one_0[4]/xor3_1/A GND! addsub_one_0[4]/nand2_1/a_7_10# 2 6 1852 18
+p addsub_one_0[4]/xor3_1/A Vdd! addsub_one_0[4]/nand2_2/A 2 12 1852 38
+n addsub_one_0[4]/cin addsub_one_0[4]/nand2_1/a_7_10# addsub_one_0[4]/nand2_2/A 2 6 1861 18
+p addsub_one_0[4]/cin addsub_one_0[4]/nand2_2/A Vdd! 2 12 1861 38
+n addsub_one_0[4]/nand2_2/A GND! addsub_one_0[4]/nand2_2/a_7_10# 2 6 1922 11
+p addsub_one_0[4]/nand2_2/A Vdd! addsub_one_0[5]/cin 2 12 1922 31
+n addsub_one_0[4]/nand2_2/B addsub_one_0[4]/nand2_2/a_7_10# addsub_one_0[5]/cin 2 6 1931 11
+p addsub_one_0[4]/nand2_2/B addsub_one_0[5]/cin Vdd! 2 12 1931 31
+n xor3_0[5]/out GND! addsub_one_0[5]/xor3_0/inv_0/out 2 5 2197 98
+p xor3_0[5]/out Vdd! addsub_one_0[5]/xor3_0/inv_0/out 2 10 2197 115
+n a5 GND! addsub_one_0[5]/xor3_0/Abar 2 5 2161 98
+p a5 Vdd! addsub_one_0[5]/xor3_0/Abar 2 10 2161 115
+n xor3_0[5]/out addsub_one_0[5]/xor3_0/a_7_n41# addsub_one_0[5]/xor3_1/A 5 4 2252 99
+n addsub_one_0[5]/xor3_0/inv_0/out addsub_one_0[5]/xor3_0/a_63_n41# GND! 5 4 2304 99
+p xor3_0[5]/out addsub_one_0[5]/xor3_0/a_7_n16# Vdd! 5 5 2252 124
+n addsub_one_0[5]/xor3_0/Abar addsub_one_0[5]/xor3_1/A addsub_one_0[5]/xor3_0/a_63_n41# 5 4 2286 99
+p addsub_one_0[5]/xor3_0/inv_0/out addsub_one_0[5]/xor3_1/A addsub_one_0[5]/xor3_0/a_7_n16# 5 10 2304 119
+p addsub_one_0[5]/xor3_0/Abar addsub_one_0[5]/xor3_0/a_7_n16# addsub_one_0[5]/xor3_1/A 5 10 2286 119
+n a5 GND! addsub_one_0[5]/xor3_0/a_7_n41# 5 4 2230 99
+p a5 Vdd! addsub_one_0[5]/xor3_0/a_7_n16# 5 5 2230 124
+n addsub_one_0[5]/cin GND! addsub_one_0[5]/xor3_1/inv_0/out 2 5 2392 98
+p addsub_one_0[5]/cin Vdd! addsub_one_0[5]/xor3_1/inv_0/out 2 10 2392 115
+n addsub_one_0[5]/xor3_1/A GND! addsub_one_0[5]/xor3_1/Abar 2 5 2356 98
+p addsub_one_0[5]/xor3_1/A Vdd! addsub_one_0[5]/xor3_1/Abar 2 10 2356 115
+n addsub_one_0[5]/cin addsub_one_0[5]/xor3_1/a_7_n41# s5 5 4 2447 99
+n addsub_one_0[5]/xor3_1/inv_0/out addsub_one_0[5]/xor3_1/a_63_n41# GND! 5 4 2499 99
+p addsub_one_0[5]/cin addsub_one_0[5]/xor3_1/a_7_n16# Vdd! 5 5 2447 124
+n addsub_one_0[5]/xor3_1/Abar s5 addsub_one_0[5]/xor3_1/a_63_n41# 5 4 2481 99
+p addsub_one_0[5]/xor3_1/inv_0/out s5 addsub_one_0[5]/xor3_1/a_7_n16# 5 10 2499 119
+p addsub_one_0[5]/xor3_1/Abar addsub_one_0[5]/xor3_1/a_7_n16# s5 5 10 2481 119
+n addsub_one_0[5]/xor3_1/A GND! addsub_one_0[5]/xor3_1/a_7_n41# 5 4 2425 99
+p addsub_one_0[5]/xor3_1/A Vdd! addsub_one_0[5]/xor3_1/a_7_n16# 5 5 2425 124
+n a5 GND! addsub_one_0[5]/nand2_0/a_7_10# 2 6 2215 18
+p a5 Vdd! addsub_one_0[5]/nand2_2/B 2 12 2215 38
+n xor3_0[5]/out addsub_one_0[5]/nand2_0/a_7_10# addsub_one_0[5]/nand2_2/B 2 6 2224 18
+p xor3_0[5]/out addsub_one_0[5]/nand2_2/B Vdd! 2 12 2224 38
+n addsub_one_0[5]/xor3_1/A GND! addsub_one_0[5]/nand2_1/a_7_10# 2 6 2273 18
+p addsub_one_0[5]/xor3_1/A Vdd! addsub_one_0[5]/nand2_2/A 2 12 2273 38
+n addsub_one_0[5]/cin addsub_one_0[5]/nand2_1/a_7_10# addsub_one_0[5]/nand2_2/A 2 6 2282 18
+p addsub_one_0[5]/cin addsub_one_0[5]/nand2_2/A Vdd! 2 12 2282 38
+n addsub_one_0[5]/nand2_2/A GND! addsub_one_0[5]/nand2_2/a_7_10# 2 6 2343 11
+p addsub_one_0[5]/nand2_2/A Vdd! addsub_one_0[6]/cin 2 12 2343 31
+n addsub_one_0[5]/nand2_2/B addsub_one_0[5]/nand2_2/a_7_10# addsub_one_0[6]/cin 2 6 2352 11
+p addsub_one_0[5]/nand2_2/B addsub_one_0[6]/cin Vdd! 2 12 2352 31
+n xor3_0[6]/out GND! addsub_one_0[6]/xor3_0/inv_0/out 2 5 2618 98
+p xor3_0[6]/out Vdd! addsub_one_0[6]/xor3_0/inv_0/out 2 10 2618 115
+n a6 GND! addsub_one_0[6]/xor3_0/Abar 2 5 2582 98
+p a6 Vdd! addsub_one_0[6]/xor3_0/Abar 2 10 2582 115
+n xor3_0[6]/out addsub_one_0[6]/xor3_0/a_7_n41# addsub_one_0[6]/xor3_1/A 5 4 2673 99
+n addsub_one_0[6]/xor3_0/inv_0/out addsub_one_0[6]/xor3_0/a_63_n41# GND! 5 4 2725 99
+p xor3_0[6]/out addsub_one_0[6]/xor3_0/a_7_n16# Vdd! 5 5 2673 124
+n addsub_one_0[6]/xor3_0/Abar addsub_one_0[6]/xor3_1/A addsub_one_0[6]/xor3_0/a_63_n41# 5 4 2707 99
+p addsub_one_0[6]/xor3_0/inv_0/out addsub_one_0[6]/xor3_1/A addsub_one_0[6]/xor3_0/a_7_n16# 5 10 2725 119
+p addsub_one_0[6]/xor3_0/Abar addsub_one_0[6]/xor3_0/a_7_n16# addsub_one_0[6]/xor3_1/A 5 10 2707 119
+n a6 GND! addsub_one_0[6]/xor3_0/a_7_n41# 5 4 2651 99
+p a6 Vdd! addsub_one_0[6]/xor3_0/a_7_n16# 5 5 2651 124
+n addsub_one_0[6]/cin GND! addsub_one_0[6]/xor3_1/inv_0/out 2 5 2813 98
+p addsub_one_0[6]/cin Vdd! addsub_one_0[6]/xor3_1/inv_0/out 2 10 2813 115
+n addsub_one_0[6]/xor3_1/A GND! addsub_one_0[6]/xor3_1/Abar 2 5 2777 98
+p addsub_one_0[6]/xor3_1/A Vdd! addsub_one_0[6]/xor3_1/Abar 2 10 2777 115
+n addsub_one_0[6]/cin addsub_one_0[6]/xor3_1/a_7_n41# s6 5 4 2868 99
+n addsub_one_0[6]/xor3_1/inv_0/out addsub_one_0[6]/xor3_1/a_63_n41# GND! 5 4 2920 99
+p addsub_one_0[6]/cin addsub_one_0[6]/xor3_1/a_7_n16# Vdd! 5 5 2868 124
+n addsub_one_0[6]/xor3_1/Abar s6 addsub_one_0[6]/xor3_1/a_63_n41# 5 4 2902 99
+p addsub_one_0[6]/xor3_1/inv_0/out s6 addsub_one_0[6]/xor3_1/a_7_n16# 5 10 2920 119
+p addsub_one_0[6]/xor3_1/Abar addsub_one_0[6]/xor3_1/a_7_n16# s6 5 10 2902 119
+n addsub_one_0[6]/xor3_1/A GND! addsub_one_0[6]/xor3_1/a_7_n41# 5 4 2846 99
+p addsub_one_0[6]/xor3_1/A Vdd! addsub_one_0[6]/xor3_1/a_7_n16# 5 5 2846 124
+n a6 GND! addsub_one_0[6]/nand2_0/a_7_10# 2 6 2636 18
+p a6 Vdd! addsub_one_0[6]/nand2_2/B 2 12 2636 38
+n xor3_0[6]/out addsub_one_0[6]/nand2_0/a_7_10# addsub_one_0[6]/nand2_2/B 2 6 2645 18
+p xor3_0[6]/out addsub_one_0[6]/nand2_2/B Vdd! 2 12 2645 38
+n addsub_one_0[6]/xor3_1/A GND! addsub_one_0[6]/nand2_1/a_7_10# 2 6 2694 18
+p addsub_one_0[6]/xor3_1/A Vdd! addsub_one_0[6]/nand2_2/A 2 12 2694 38
+n addsub_one_0[6]/cin addsub_one_0[6]/nand2_1/a_7_10# addsub_one_0[6]/nand2_2/A 2 6 2703 18
+p addsub_one_0[6]/cin addsub_one_0[6]/nand2_2/A Vdd! 2 12 2703 38
+n addsub_one_0[6]/nand2_2/A GND! addsub_one_0[6]/nand2_2/a_7_10# 2 6 2764 11
+p addsub_one_0[6]/nand2_2/A Vdd! addsub_one_0[7]/cin 2 12 2764 31
+n addsub_one_0[6]/nand2_2/B addsub_one_0[6]/nand2_2/a_7_10# addsub_one_0[7]/cin 2 6 2773 11
+p addsub_one_0[6]/nand2_2/B addsub_one_0[7]/cin Vdd! 2 12 2773 31
+n xor3_0[7]/out GND! addsub_one_0[7]/xor3_0/inv_0/out 2 5 3039 98
+p xor3_0[7]/out Vdd! addsub_one_0[7]/xor3_0/inv_0/out 2 10 3039 115
+n a7 GND! addsub_one_0[7]/xor3_0/Abar 2 5 3003 98
+p a7 Vdd! addsub_one_0[7]/xor3_0/Abar 2 10 3003 115
+n xor3_0[7]/out addsub_one_0[7]/xor3_0/a_7_n41# addsub_one_0[7]/xor3_1/A 5 4 3094 99
+n addsub_one_0[7]/xor3_0/inv_0/out addsub_one_0[7]/xor3_0/a_63_n41# GND! 5 4 3146 99
+p xor3_0[7]/out addsub_one_0[7]/xor3_0/a_7_n16# Vdd! 5 5 3094 124
+n addsub_one_0[7]/xor3_0/Abar addsub_one_0[7]/xor3_1/A addsub_one_0[7]/xor3_0/a_63_n41# 5 4 3128 99
+p addsub_one_0[7]/xor3_0/inv_0/out addsub_one_0[7]/xor3_1/A addsub_one_0[7]/xor3_0/a_7_n16# 5 10 3146 119
+p addsub_one_0[7]/xor3_0/Abar addsub_one_0[7]/xor3_0/a_7_n16# addsub_one_0[7]/xor3_1/A 5 10 3128 119
+n a7 GND! addsub_one_0[7]/xor3_0/a_7_n41# 5 4 3072 99
+p a7 Vdd! addsub_one_0[7]/xor3_0/a_7_n16# 5 5 3072 124
+n addsub_one_0[7]/cin GND! addsub_one_0[7]/xor3_1/inv_0/out 2 5 3234 98
+p addsub_one_0[7]/cin Vdd! addsub_one_0[7]/xor3_1/inv_0/out 2 10 3234 115
+n addsub_one_0[7]/xor3_1/A GND! addsub_one_0[7]/xor3_1/Abar 2 5 3198 98
+p addsub_one_0[7]/xor3_1/A Vdd! addsub_one_0[7]/xor3_1/Abar 2 10 3198 115
+n addsub_one_0[7]/cin addsub_one_0[7]/xor3_1/a_7_n41# s7 5 4 3289 99
+n addsub_one_0[7]/xor3_1/inv_0/out addsub_one_0[7]/xor3_1/a_63_n41# GND! 5 4 3341 99
+p addsub_one_0[7]/cin addsub_one_0[7]/xor3_1/a_7_n16# Vdd! 5 5 3289 124
+n addsub_one_0[7]/xor3_1/Abar s7 addsub_one_0[7]/xor3_1/a_63_n41# 5 4 3323 99
+p addsub_one_0[7]/xor3_1/inv_0/out s7 addsub_one_0[7]/xor3_1/a_7_n16# 5 10 3341 119
+p addsub_one_0[7]/xor3_1/Abar addsub_one_0[7]/xor3_1/a_7_n16# s7 5 10 3323 119
+n addsub_one_0[7]/xor3_1/A GND! addsub_one_0[7]/xor3_1/a_7_n41# 5 4 3267 99
+p addsub_one_0[7]/xor3_1/A Vdd! addsub_one_0[7]/xor3_1/a_7_n16# 5 5 3267 124
+n a7 GND! addsub_one_0[7]/nand2_0/a_7_10# 2 6 3057 18
+p a7 Vdd! addsub_one_0[7]/nand2_2/B 2 12 3057 38
+n xor3_0[7]/out addsub_one_0[7]/nand2_0/a_7_10# addsub_one_0[7]/nand2_2/B 2 6 3066 18
+p xor3_0[7]/out addsub_one_0[7]/nand2_2/B Vdd! 2 12 3066 38
+n addsub_one_0[7]/xor3_1/A GND! addsub_one_0[7]/nand2_1/a_7_10# 2 6 3115 18
+p addsub_one_0[7]/xor3_1/A Vdd! addsub_one_0[7]/nand2_2/A 2 12 3115 38
+n addsub_one_0[7]/cin addsub_one_0[7]/nand2_1/a_7_10# addsub_one_0[7]/nand2_2/A 2 6 3124 18
+p addsub_one_0[7]/cin addsub_one_0[7]/nand2_2/A Vdd! 2 12 3124 38
+n addsub_one_0[7]/nand2_2/A GND! addsub_one_0[7]/nand2_2/a_7_10# 2 6 3185 11
+p addsub_one_0[7]/nand2_2/A Vdd! cout 2 12 3185 31
+n addsub_one_0[7]/nand2_2/B addsub_one_0[7]/nand2_2/a_7_10# cout 2 6 3194 11
+p addsub_one_0[7]/nand2_2/B cout Vdd! 2 12 3194 31
+C GND! cin 5.25
+C Vdd! cin 6.93
+R cout 23
+R addsub_one_0[7]/nand2_2/A 166
+R addsub_one_0[7]/nand2_2/B 169
+R addsub_one_0[7]/xor3_1/a_63_n41# 22
+R addsub_one_0[7]/xor3_1/a_7_n41# 29
+R s7 65
+R addsub_one_0[7]/xor3_1/a_7_n16# 91
+R addsub_one_0[7]/xor3_1/Abar 31
+R addsub_one_0[7]/xor3_1/inv_0/out 95
+R addsub_one_0[7]/cin 318
+R addsub_one_0[7]/xor3_0/a_63_n41# 22
+R addsub_one_0[7]/xor3_0/a_7_n41# 29
+R addsub_one_0[7]/xor3_1/A 354
+R addsub_one_0[7]/xor3_0/a_7_n16# 91
+R addsub_one_0[7]/xor3_0/Abar 31
+R a7 292
+R addsub_one_0[7]/xor3_0/inv_0/out 95
+R xor3_0[7]/out 357
+R addsub_one_0[6]/nand2_2/A 166
+R addsub_one_0[6]/nand2_2/B 169
+R addsub_one_0[6]/xor3_1/a_63_n41# 22
+R addsub_one_0[6]/xor3_1/a_7_n41# 29
+R s6 65
+R addsub_one_0[6]/xor3_1/a_7_n16# 91
+R addsub_one_0[6]/xor3_1/Abar 31
+R addsub_one_0[6]/xor3_1/inv_0/out 95
+R addsub_one_0[6]/cin 318
+R addsub_one_0[6]/xor3_0/a_63_n41# 22
+R addsub_one_0[6]/xor3_0/a_7_n41# 29
+R addsub_one_0[6]/xor3_1/A 354
+R addsub_one_0[6]/xor3_0/a_7_n16# 91
+R addsub_one_0[6]/xor3_0/Abar 31
+R a6 292
+R addsub_one_0[6]/xor3_0/inv_0/out 95
+R xor3_0[6]/out 357
+R addsub_one_0[5]/nand2_2/A 166
+R addsub_one_0[5]/nand2_2/B 169
+R addsub_one_0[5]/xor3_1/a_63_n41# 22
+R addsub_one_0[5]/xor3_1/a_7_n41# 29
+R s5 65
+R addsub_one_0[5]/xor3_1/a_7_n16# 91
+R addsub_one_0[5]/xor3_1/Abar 31
+R addsub_one_0[5]/xor3_1/inv_0/out 95
+R addsub_one_0[5]/cin 318
+R addsub_one_0[5]/xor3_0/a_63_n41# 22
+R addsub_one_0[5]/xor3_0/a_7_n41# 29
+R addsub_one_0[5]/xor3_1/A 354
+R addsub_one_0[5]/xor3_0/a_7_n16# 91
+R addsub_one_0[5]/xor3_0/Abar 31
+R a5 291
+R addsub_one_0[5]/xor3_0/inv_0/out 95
+R xor3_0[5]/out 357
+R addsub_one_0[4]/nand2_2/A 166
+R addsub_one_0[4]/nand2_2/B 169
+R addsub_one_0[4]/xor3_1/a_63_n41# 22
+R addsub_one_0[4]/xor3_1/a_7_n41# 29
+R s4 65
+R addsub_one_0[4]/xor3_1/a_7_n16# 91
+R addsub_one_0[4]/xor3_1/Abar 31
+R addsub_one_0[4]/xor3_1/inv_0/out 95
+R addsub_one_0[4]/cin 318
+R addsub_one_0[4]/xor3_0/a_63_n41# 22
+R addsub_one_0[4]/xor3_0/a_7_n41# 29
+R addsub_one_0[4]/xor3_1/A 354
+R addsub_one_0[4]/xor3_0/a_7_n16# 91
+R addsub_one_0[4]/xor3_0/Abar 31
+R a4 292
+R addsub_one_0[4]/xor3_0/inv_0/out 95
+R xor3_0[4]/out 356
+R addsub_one_0[3]/nand2_2/A 166
+R addsub_one_0[3]/nand2_2/B 169
+R addsub_one_0[3]/xor3_1/a_63_n41# 22
+R addsub_one_0[3]/xor3_1/a_7_n41# 29
+R s3 65
+R addsub_one_0[3]/xor3_1/a_7_n16# 91
+R addsub_one_0[3]/xor3_1/Abar 31
+R addsub_one_0[3]/xor3_1/inv_0/out 95
+R addsub_one_0[3]/cin 318
+R addsub_one_0[3]/xor3_0/a_63_n41# 22
+R addsub_one_0[3]/xor3_0/a_7_n41# 29
+R addsub_one_0[3]/xor3_1/A 354
+R addsub_one_0[3]/xor3_0/a_7_n16# 91
+R addsub_one_0[3]/xor3_0/Abar 31
+R a3 292
+R addsub_one_0[3]/xor3_0/inv_0/out 95
+R xor3_0[3]/out 357
+R addsub_one_0[2]/nand2_2/A 166
+R addsub_one_0[2]/nand2_2/B 169
+R addsub_one_0[2]/xor3_1/a_63_n41# 22
+R addsub_one_0[2]/xor3_1/a_7_n41# 29
+R s2 65
+R addsub_one_0[2]/xor3_1/a_7_n16# 91
+R addsub_one_0[2]/xor3_1/Abar 31
+R addsub_one_0[2]/xor3_1/inv_0/out 95
+R addsub_one_0[2]/cin 318
+R addsub_one_0[2]/xor3_0/a_63_n41# 22
+R addsub_one_0[2]/xor3_0/a_7_n41# 29
+R addsub_one_0[2]/xor3_1/A 354
+R addsub_one_0[2]/xor3_0/a_7_n16# 91
+R addsub_one_0[2]/xor3_0/Abar 31
+R a2 292
+R addsub_one_0[2]/xor3_0/inv_0/out 95
+R xor3_0[2]/out 357
+R addsub_one_0[1]/nand2_2/A 166
+R addsub_one_0[1]/nand2_2/B 169
+R addsub_one_0[1]/xor3_1/a_63_n41# 22
+R addsub_one_0[1]/xor3_1/a_7_n41# 29
+R s1 65
+R addsub_one_0[1]/xor3_1/a_7_n16# 91
+C Vdd! GND 86.01
+R Vdd! 192680
+R addsub_one_0[1]/xor3_1/Abar 31
+R addsub_one_0[1]/xor3_1/inv_0/out 95
+R addsub_one_0[1]/cin 318
+R GND! 8046
+R addsub_one_0[1]/xor3_0/a_63_n41# 22
+R addsub_one_0[1]/xor3_0/a_7_n41# 29
+R addsub_one_0[1]/xor3_1/A 354
+R addsub_one_0[1]/xor3_0/a_7_n16# 91
+R addsub_one_0[1]/xor3_0/Abar 31
+R a1 292
+R addsub_one_0[1]/xor3_0/inv_0/out 95
+R xor3_0[1]/out 357
+R addsub_one_0[0]/nand2_2/A 166
+R addsub_one_0[0]/nand2_2/B 169
+R addsub_one_0[0]/xor3_1/a_63_n41# 22
+R addsub_one_0[0]/xor3_1/a_7_n41# 29
+R s0 65
+R addsub_one_0[0]/xor3_1/a_7_n16# 91
+R addsub_one_0[0]/xor3_1/Abar 31
+R addsub_one_0[0]/xor3_1/inv_0/out 95
+R cin 1480
+R addsub_one_0[0]/xor3_0/a_63_n41# 22
+R addsub_one_0[0]/xor3_0/a_7_n41# 29
+R addsub_one_0[0]/xor3_1/A 354
+R addsub_one_0[0]/xor3_0/a_7_n16# 91
+R addsub_one_0[0]/xor3_0/Abar 31
+R a0 292
+R addsub_one_0[0]/xor3_0/inv_0/out 95
+R xor3_0[0]/out 356
+R xor3_0[7]/a_63_n41# 22
+R xor3_0[7]/a_7_n41# 29
+R xor3_0[7]/a_7_n16# 91
+R xor3_0[7]/Abar 31
+R b7 138
+R xor3_0[7]/inv_0/out 95
+R xor3_0[6]/a_63_n41# 22
+R xor3_0[6]/a_7_n41# 29
+R xor3_0[6]/a_7_n16# 91
+R xor3_0[6]/Abar 31
+R b6 138
+R xor3_0[6]/inv_0/out 95
+R xor3_0[5]/a_63_n41# 22
+R xor3_0[5]/a_7_n41# 29
+R xor3_0[5]/a_7_n16# 91
+R xor3_0[5]/Abar 31
+R b5 138
+R xor3_0[5]/inv_0/out 95
+R xor3_0[4]/a_63_n41# 22
+R xor3_0[4]/a_7_n41# 29
+R xor3_0[4]/a_7_n16# 91
+R xor3_0[4]/Abar 31
+R b4 138
+R xor3_0[4]/inv_0/out 95
+R xor3_0[3]/a_63_n41# 22
+R xor3_0[3]/a_7_n41# 29
+R xor3_0[3]/a_7_n16# 91
+R xor3_0[3]/Abar 31
+R b3 138
+R xor3_0[3]/inv_0/out 95
+R xor3_0[2]/a_63_n41# 22
+R xor3_0[2]/a_7_n41# 29
+R xor3_0[2]/a_7_n16# 91
+R xor3_0[2]/Abar 31
+R b2 138
+R xor3_0[2]/inv_0/out 95
+R xor3_0[1]/a_63_n41# 22
+R xor3_0[1]/a_7_n41# 29
+R xor3_0[1]/a_7_n16# 91
+R xor3_0[1]/Abar 31
+R b1 138
+R xor3_0[1]/inv_0/out 95
+R xor3_0[0]/a_63_n41# 22
+R xor3_0[0]/a_7_n41# 29
+R xor3_0[0]/a_7_n16# 91
+R xor3_0[0]/Abar 31
+R b0 138
+R xor3_0[0]/inv_0/out 95

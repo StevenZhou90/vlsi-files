@@ -1,4 +1,4 @@
-timestamp 1759285841
+timestamp 1759372879
 version 8.3
 tech scmos
 style TSMC0.18um(tsmc18)from:t24i
@@ -21,37 +21,37 @@ node "Vdd!" 181 67.606 -6 -16 pdif 0 0 325 180 0 0 0 0 0 0 0 0 0 0 665 276 0 0 0
 node "Bbar" 187 188.796 -15 -53 pw 218 124 75 60 0 0 0 0 5198 320 0 0 0 0 800 330 0 0 0 0 0 0 0 0 0 0
 equiv "Bbar" "GND!"
 node "w_n15_n30#" 2382 3036.26 -15 -30 nw 0 0 0 0 5208 320 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "a_76_n45#" "out" 60.787
-cap "a_7_n16#" "Abar" 33.32
-cap "a_76_n45#" "A" 11.36
-cap "a_76_n45#" "w_n15_n30#" 244.779
-cap "w_n15_n30#" "Vdd!" 456.406
-cap "a_76_n45#" "B" 273.389
-cap "A" "Vdd!" 77.94
-cap "Vdd!" "B" 60.918
-cap "a_7_n16#" "out" 169.305
-cap "a_76_n45#" "Bbar" 213.405
-cap "a_63_n41#" "Abar" 1.628
-cap "A" "a_7_n16#" 32.8177
-cap "w_n15_n30#" "a_7_n16#" 320.572
-cap "a_7_n16#" "B" 79.494
-cap "Abar" "out" 107.573
-cap "A" "Abar" 36.3929
-cap "w_n15_n30#" "Abar" 212.618
-cap "Abar" "B" 42.4583
-cap "Bbar" "Abar" 426.481
-cap "w_n15_n30#" "out" 114.726
-cap "w_n15_n30#" "A" 236.87
-cap "A" "B" 639.743
-cap "w_n15_n30#" "B" 253.319
-cap "a_76_n45#" "Vdd!" 1.628
-cap "Bbar" "out" 36.708
-cap "Bbar" "A" 137.722
-cap "a_76_n45#" "a_7_n41#" 15.181
-cap "Bbar" "B" 154.744
 cap "a_76_n45#" "a_7_n16#" 134.552
-cap "a_7_n16#" "Vdd!" 505.666
 cap "a_76_n45#" "Abar" 11.36
+cap "a_76_n45#" "B" 273.389
+cap "out" "w_n15_n30#" 114.726
+cap "a_76_n45#" "w_n15_n30#" 244.779
+cap "a_76_n45#" "a_7_n41#" 15.181
+cap "Abar" "a_63_n41#" 1.628
+cap "out" "Bbar" 36.708
+cap "a_76_n45#" "out" 60.787
+cap "a_76_n45#" "Bbar" 213.405
+cap "A" "Vdd!" 77.94
+cap "a_7_n16#" "A" 32.8177
+cap "A" "Abar" 36.3929
+cap "B" "A" 639.743
+cap "a_7_n16#" "Vdd!" 505.666
+cap "B" "Vdd!" 60.918
+cap "a_7_n16#" "Abar" 33.32
+cap "a_7_n16#" "B" 79.494
+cap "B" "Abar" 42.4583
+cap "A" "w_n15_n30#" 236.87
+cap "Vdd!" "w_n15_n30#" 456.406
+cap "a_7_n16#" "w_n15_n30#" 320.572
+cap "Abar" "w_n15_n30#" 212.618
+cap "B" "w_n15_n30#" 253.319
+cap "A" "Bbar" 137.722
+cap "a_7_n16#" "out" 169.305
+cap "a_76_n45#" "A" 11.36
+cap "out" "Abar" 107.573
+cap "Bbar" "Abar" 426.481
+cap "B" "Bbar" 154.744
+cap "a_76_n45#" "Vdd!" 1.628
 fet nfet 76 -41 77 -40 20 18 "Bbar" "a_76_n45#" 10 0 "a_63_n41#" 4 0 "Bbar" 4 0
 fet nfet 58 -41 59 -40 20 18 "Bbar" "Abar" 10 0 "out" 4 0 "a_63_n41#" 4 0
 fet nfet 24 -41 25 -40 20 18 "Bbar" "B" 10 0 "a_7_n41#" 4 0 "out" 4 0
@@ -63,16 +63,16 @@ fet pfet 2 -16 3 -15 25 20 "w_n15_n30#" "A" 10 0 "Vdd!" 5 0 "a_7_n16#" 5 0
 subcap "A" -92.176
 subcap "Bbar" -143.03
 subcap "w_n15_n30#" -1586.22
-cap "inv_0/in" "inv_0/out" 4.08
-cap "inv_0/Vdd!" "inv_0/out" 5.949
-cap "inv_1/out" "inv_1/in" 4.08
-cap "inv_0/out" "inv_0/GND!" 17.512
-cap "inv_0/Vdd!" "inv_0/in" 132.204
-cap "inv_0/in" "inv_0/GND!" 2.849
+cap "inv_1/in" "inv_1/out" 4.08
 cap "inv_0/Vdd!" "inv_1/out" 4.78
-cap "inv_1/out" "inv_0/GND!" 58.778
+cap "inv_0/GND!" "inv_0/in" 2.849
 cap "inv_0/Vdd!" "inv_1/in" 107.04
+cap "inv_0/Vdd!" "inv_0/out" 5.949
+cap "inv_0/GND!" "inv_1/out" 58.778
 cap "inv_0/GND!" "inv_1/in" 3.663
+cap "inv_0/Vdd!" "inv_0/in" 132.204
+cap "inv_0/in" "inv_0/out" 4.08
+cap "inv_0/GND!" "inv_0/out" 17.512
 subcap "a_76_n45#" -61.372
 subcap "Abar" -116.94
 subcap "B" -111.044
