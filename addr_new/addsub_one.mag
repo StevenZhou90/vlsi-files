@@ -111,30 +111,30 @@ rect 106 -58 111 -34
 rect 234 -38 245 -33
 rect 240 -58 245 -38
 rect 106 -63 245 -58
-use xor3  xor3_2
-timestamp 1759285841
-transform 1 0 67 0 -1 108
-box -95 -76 100 16
-use xor3  xor3_1
-timestamp 1759285841
-transform 1 0 290 0 1 76
-box -95 -76 100 16
-use xor3  xor3_0
-timestamp 1759285841
-transform 1 0 95 0 1 76
-box -95 -76 100 16
-use nand2  nand2_2
+use nand2  nand2_0
 timestamp 1759005747
-transform 1 0 205 0 1 -62
+transform 1 0 77 0 1 -55
 box -7 -2 29 54
 use nand2  nand2_1
 timestamp 1759005747
 transform 1 0 135 0 1 -55
 box -7 -2 29 54
-use nand2  nand2_0
+use nand2  nand2_2
 timestamp 1759005747
-transform 1 0 77 0 1 -55
+transform 1 0 205 0 1 -62
 box -7 -2 29 54
+use xor3  xor3_0 ~/Downloads/vlsi-files/addr_new
+timestamp 1759285841
+transform 1 0 95 0 1 76
+box -95 -76 100 16
+use xor3  xor3_1
+timestamp 1759285841
+transform 1 0 290 0 1 76
+box -95 -76 100 16
+use xor3  xor3_2
+timestamp 1759285841
+transform 1 0 67 0 -1 108
+box -95 -76 100 16
 << labels >>
 rlabel metal1 39 -63 39 -63 1 GND!
 rlabel space 29 69 29 69 1 Vdd!

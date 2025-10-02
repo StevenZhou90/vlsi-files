@@ -76,11 +76,6 @@ rect 2 -45 7 -41
 rect 24 -45 29 -41
 rect 58 -45 63 -41
 rect 76 -45 81 -41
-<< polycontact >>
-rect 2 -22 7 -17
-rect 24 -31 29 -26
-rect 58 -36 63 -31
-rect 76 -36 81 -31
 << metal1 >>
 rect -15 1 -6 6
 rect -1 1 12 6
@@ -141,13 +136,13 @@ rect 76 -31 81 -17
 rect -20 -43 42 -38
 rect 58 -54 63 -36
 rect -59 -59 63 -54
-use inv  inv_0
-timestamp 1759005747
-transform 1 0 -36 0 1 -46
-box -9 -7 21 44
 use inv  inv_1
 timestamp 1759005747
 transform 1 0 -72 0 1 -46
+box -9 -7 21 44
+use inv  inv_0
+timestamp 1759005747
+transform 1 0 -36 0 1 -46
 box -9 -7 21 44
 << labels >>
 rlabel metal1 92 -59 100 -54 8 GND!
@@ -160,4 +155,3 @@ rlabel metal1 43 -37 47 -24 1 out
 rlabel metal1 58 -36 63 -31 1 Abar
 rlabel pwell 76 -36 81 -31 1 Bbar
 << end >>
-
